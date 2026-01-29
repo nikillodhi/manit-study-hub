@@ -69,6 +69,7 @@ const subjects = {
 /* ================== FILE DATA (REAL FILES) ================== */
 
 const resources = {
+  /* 4th sem*/ 
   "Software Engineering": {
     Notes: [],
     PYQ: [],
@@ -150,7 +151,57 @@ const resources = {
         file: "assets/CSE/sem4/Fundamental of Entrepreneurship/Syllabus/FOE Syllabus.pdf"
       }
     ]
-  }
+  },
+
+  /* 3th sem*/
+  "Data Structure and Algorithm": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+  "Discrete Mathematics": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: [
+      {
+        name: "Discrete Mathematics Syllabus",
+        file: "assets/CSE/sem3/Discrete Mathematics/Syllabus/DM-Syllabus.pdf"
+
+      }
+    ]
+  },
+
+  "Database Management System": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+  "Digital Circuit Design": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+  "Principles of Programming Language": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+  "Fundamental of Design Methods": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
 };
 
 /* ================== STATE ================== */
