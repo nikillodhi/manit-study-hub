@@ -158,7 +158,12 @@ const resources = {
     Notes: [],
     PYQ: [],
     Books: [],
-    Syllabus: []
+    Syllabus: [
+      {
+        name: "Data Structure and Algorithm Syllabus",
+        file: "assets/CSE/sem3/Data Structure and Algorithm/Syllabus/DSA-Syllabus.pdf"
+      }
+    ]
   },
 
   "Discrete Mathematics": {
@@ -178,28 +183,48 @@ const resources = {
     Notes: [],
     PYQ: [],
     Books: [],
-    Syllabus: []
+    Syllabus: [
+      {
+        name: "Database Management System Syllabus",
+        file: "assets/CSE/sem3/Database Management System/Syllabus/DBMS-Syllabus.pdf"
+      }
+    ]
   },
 
   "Digital Circuit Design": {
     Notes: [],
     PYQ: [],
     Books: [],
-    Syllabus: []
+    Syllabus: [
+      {
+        name: "Digital Circuit Design Syllabus",
+        file: "assets/CSE/sem3/Digital Circuit Design/Syllabus/DCD-Syllabus.pdf"
+      }
+    ]
   },
 
   "Principles of Programming Language": {
     Notes: [],
     PYQ: [],
     Books: [],
-    Syllabus: []
+    Syllabus: [
+      {
+        name: "Principles of Programming Language Syllabus",
+        file: "assets/CSE/sem3/Principles of Programming Language/Syllabus/PPL-Syllabus.pdf"
+      }
+    ]
   },
 
   "Fundamental of Design Methods": {
     Notes: [],
     PYQ: [],
     Books: [],
-    Syllabus: []
+    Syllabus: [
+      {
+        name: "Fundamental of Design Methods Syllabus",
+        file: "assets/CSE/sem3/Fundamental of Design Methods/Syllabus/FOD-Syllabus.pdf"
+      }
+    ]
   },
 
 };
