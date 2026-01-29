@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MANIT Study Hub | Nikhil Lodhi</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo-section">
+      <img src="logo.png" class="main-logo">
+      <div class="logo-text">MANIT<span>HUB</span></div>
+    </div>
+
+    <!-- 🔹 TOP CONTRIBUTE BUTTON -->
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSc8uZDnEvTDk8scf7Shh8ecgAOXIo6nhDw5UXSUYWf8umrT7Q/viewform"
+      target="_blank"
+      class="premium-upload-btn"
+    >
+      <i class="fas fa-cloud-arrow-up"></i> Contribute
+    </a>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <div class="glass-hero-card">
+    <h1 id="dynamicTitle">Select Your Department</h1>
+    <p id="dynamicSubtitle">
+      Direct access to core engineering resources for MANIT students.
+    </p>
+  </div>
+</header>
+
+<!-- ================= CONTENT ================= -->
+<section class="content-wrapper">
+  <div id="gridWrapper" class="grid-display">
+
+    <!-- CENTER CONTRIBUTE CARD -->
+    <div class="center-contribute">
+      <h3>😕 No resources available yet</h3>
+      <p>Be the first one to help your juniors!</p>
+
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSc8uZDnEvTDk8scf7Shh8ecgAOXIo6nhDw5UXSUYWf8umrT7Q/viewform"
+        target="_blank"
+        class="premium-upload-btn"
+      >
+        <i class="fas fa-cloud-arrow-up"></i>
+        Contribute Resources
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <h3>Created by <span>NIKHIL LODHI</span></h3>
+
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/nikhil-lodhi-62092a267" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+
+    <a href="https://github.com/nikillodhi" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <a href="mailto:lodhinikil163@gmail.com">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+</footer>
+
+<!-- ================= JS ================= -->
+<script src="script.js"></script>
+
+<!-- ================= RESOURCE MODAL ================= -->
+<div id="resourceModal" style="
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.7);
+  align-items:center;
+  justify-content:center;
+  z-index:9999;
+">
+
+  <div style="
+    background:#0f172a;
+    padding:25px;
+    border-radius:16px;
+    width:320px;
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.1);
+  ">
+
+    <h2 id="modalTitle" style="margin-bottom:20px;">File</h2>
+
+    <a id="viewBtn" target="_blank"
+       style="display:block;margin-bottom:12px;"
+       class="premium-upload-btn">
+       👁 View
+    </a>
+
+    <a id="downloadBtn" download
+       style="display:block;margin-bottom:12px;"
+       class="premium-upload-btn">
+       ⬇ Download
+    </a>
+
+    <button onclick="closeModal()"
+      style="
+        margin-top:10px;
+        background:none;
+        border:none;
+        color:#94a3b8;
+        cursor:pointer;
+      ">
+      Close
+    </button>
+
+  </div>
+</div>
+
+</body>
+</html>
