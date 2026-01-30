@@ -16,7 +16,7 @@ const subjects = {
     5: ["Operating Systems","Compiler Design","Computer Networks","Statistical Models for Data Interpretation and Analysis","Artificial Intelligence"],
     6: ["Engineering Management","Machine Learning","Digital Image Processing","Network & System Security"],
     7: ["Engineering Economics and IPR","Data Warehouse & Mining","Computer Vision & Image Processing"],
-    8: ["Major Project","Industrial Training / Internship","Seminar"]
+    8: ["Major Project","Industrial Training","Seminar"]
   },
 
   "Civil Engineering": {
@@ -72,7 +72,12 @@ const resources = {
   /* 4th sem*/ 
   "Software Engineering": {
     Notes: [],
-    PYQ: [],
+    PYQ: [
+      {
+        name: "SE-MIDTERM-2025",
+        file: "assets/CSE/sem4/Software Engineering/PYQ/SE-MIDTERM-2025.pdf"
+      }
+    ],
     Books: [],
     Syllabus: [
       {
@@ -84,7 +89,16 @@ const resources = {
 
   "Computer System Organization": {
     Notes: [],
-    PYQ: [],
+    PYQ: [
+      {
+         name: "CSO-MIDTERM-2025",
+         file: "assets/CSE/sem4/Computer System Organization/PYQ/CSO-MIDTERM-2025.pdf"
+      },
+      {
+         name: "CSO-MINITEST-2025",
+         file: "assets/CSE/sem4/Computer System Organization/PYQ/CSO-MINITEST-2025.pdf"
+      }
+    ],
     Books: [
       {
         name: "Computer System Organization Book",
@@ -102,7 +116,12 @@ const resources = {
 
   "Algorithm Design & Analysis": {
     Notes: [],
-    PYQ: [],
+    PYQ: [
+      {
+         name: "ADA-MIDTERMM-2025",
+         file: "assets/CSE/sem4/Algorithm Design & Analysis/PYQ/ADA-MIDTERMM-2025.pdf"
+      }
+    ],
     Books: [],
     Syllabus: [
       {
@@ -114,7 +133,12 @@ const resources = {
 
   "Theory Of Computation": {
     Notes: [],
-    PYQ: [],
+    PYQ: [
+      {
+         name: "TOC-MIDTERMM-2025",
+         file: "assets/CSE/sem4/Theory Of Computation/PYQ/TOC-MIDTERMM-2025.pdf"
+      }
+    ],
     Books: [],
     Syllabus: [
       {
@@ -143,7 +167,12 @@ const resources = {
 
   "Fundamental of Entrepreneurship": {
     Notes: [],
-    PYQ: [],
+    PYQ: [
+      {
+         name: "FOE-MIDTERMM-2025",
+         file: "assets/CSE/sem4/Fundamental of Entrepreneurship/PYQ/FOE-MIDTERMM-2025.pdf"
+      }
+    ],
     Books: [],
     Syllabus: [
       {
@@ -156,7 +185,16 @@ const resources = {
   /* 3th sem*/
   "Data Structure and Algorithm": {
     Notes: [],
-    PYQ: [],
+    PYQ: [
+      {
+         name: "DS-MIDTERM-2024",
+         file: "assets/CSE/sem3/Data Structure and Algorithm/PYQ/DS-MIDTERM-2024.pdf"
+      },
+      {
+         name: "DS-ENDTERM-2024",
+         file: "assets/CSE/sem3/Data Structure and Algorithm/PYQ/DS-ENDTERM-2024.pdf"
+      }
+    ],
     Books: [],
     Syllabus: [
       {
@@ -168,7 +206,12 @@ const resources = {
 
   "Discrete Mathematics": {
     Notes: [],
-    PYQ: [],
+    PYQ: [
+      {
+        name: "DS-MIDTERM-2024",
+         file: "assets/CSE/sem3/Data Structure and Algorithm/PYQ/DS-MIDTERM-2024.pdf"
+      }
+    ],
     Books: [],
     Syllabus: [
       {
@@ -227,6 +270,115 @@ const resources = {
     ]
   },
 
+  /* 5th sem */
+  "Operating Systems": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+   "": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+   "": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+   "": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+   "": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+
+/* 6th sem */
+   "Engineering Management": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+   "Machine Learning": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+   "Digital Image Processing": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+   "Network & System Security": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+  /* 7th sem */
+   "Computer Vision & Image Processing": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+   "Data Warehouse & Mining": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+  "Engineering Economics and IPR": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+  /* 8th sem */
+  "Industrial Training": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+  "Major Project": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
+
+  "Seminar": {
+    Notes: [],
+    PYQ: [],
+    Books: [],
+    Syllabus: []
+  },
 };
 
 /* ================== STATE ================== */
