@@ -131,19 +131,19 @@ const resources = {
     ]
   },
 
-  "Algorithm-Design-and-Analysis": {
+  "Algorithm Design & Analysis": {
     Notes: [],
     PYQ: [
       {
          name: "ADA-MIDTERMM-2025",
-         file: "assets/CSE/sem4/Algorithm-Design-and-Analysis/Pyq/ADA-MIDTERMM-2025.pdf"
+         file: "assets/CSE/sem4/Algorithm Design & Analysis/Pyq/ADA-MIDTERMM-2025.pdf"
       }
     ],
     Books: [],
     Syllabus: [
       {
-          name: "Algorithm-Design-and-Analysis Syllabus",
-          file: "assets/CSE/sem4/Algorithm-Design-and-Analysis/Syllabus/ADA Syllabus.pdf"
+          name: "Algorithm Design & Analysis Syllabus",
+          file: "assets/CSE/sem4/Algorithm Design & Analysis/Syllabus/ADA Syllabus.pdf"
       }
     ]
   },
