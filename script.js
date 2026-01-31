@@ -93,6 +93,10 @@ const resources = {
       {
         name: "SE-MIDTERM-2025",
         file: "assets/CSE/sem4/Software Engineering/PYQ/SE-MIDTERM-2025.pdf"
+      },
+      {
+        name: "SE-ENDTERM-2025",
+        file: "assets/CSE/sem4/Software Engineering/PYQ/SE-ENDTERM-2025.pdf"
       }
     ],
     Books: [],
@@ -114,6 +118,10 @@ const resources = {
       {
          name: "CSO-MINITEST-2025",
          file: "assets/CSE/sem4/Computer System Organization/PYQ/CSO-MINITEST-2025.pdf"
+      },
+      {
+         name: "CSO-ENDTERM-2025",
+         file: "assets/CSE/sem4/Computer System Organization/PYQ/CSO-ENDTERM-2025.pdf"
       }
     ],
     Books: [
@@ -136,7 +144,11 @@ const resources = {
     PYQ: [
       {
          name: "ADA-MIDTERMM-2025",
-         file: "assets/CSE/sem4/Algorithm Design & Analysis/Pyq/ADA-MIDTERMM-2025.pdf"
+         file: "assets/CSE/sem4/Algorithm Design & Analysis/Pyq/ADA-MIDTERM-2025.pdf"
+      },
+      {
+         name: "ADA-ENDTERMM-2025",
+         file: "assets/CSE/sem4/Algorithm Design & Analysis/Pyq/ADA-ENDTERM-2025.pdf"
       }
     ],
     Books: [],
@@ -152,8 +164,12 @@ const resources = {
     Notes: [],
     PYQ: [
       {
-         name: "TOC-MIDTERMM-2025",
-         file: "assets/CSE/sem4/Theory Of Computation/PYQ/TOC-MIDTERMM-2025.pdf"
+         name: "TOC-MIDTERM-2025",
+         file: "assets/CSE/sem4/Theory Of Computation/PYQ/TOC-MIDTERM-2025.pdf"
+      },
+      {
+         name: "TOC-ENDTERM-2025",
+         file: "assets/CSE/sem4/Theory Of Computation/PYQ/TOC-ENDTERM-2025.pdf"
       }
     ],
     Books: [],
@@ -167,7 +183,16 @@ const resources = {
 
   "Data Communication": {
     Notes: [],
-    PYQ: [],
+    PYQ: [
+      {
+         name: "DC-MIDTERM-2025",
+         file: "assets/CSE/sem4/Data Communication/PYQ/DC-MIDTERM-2025.pdf"
+      },
+      {
+         name: "DC-ENDTERM-2025",
+         file: "assets/CSE/sem4/Data Communication/PYQ/DC-ENDTERM-2025.pdf"
+      }
+    ],
     Books: [
       {
         name: "Data Communication Book",
@@ -186,8 +211,12 @@ const resources = {
     Notes: [],
     PYQ: [
       {
-         name: "FOE-MIDTERMM-2025",
-         file: "assets/CSE/sem4/Fundamental of Entrepreneurship/PYQ/FOE-MIDTERMM-2025.pdf"
+         name: "FOE-MIDTERM-2025",
+         file: "assets/CSE/sem4/Fundamental of Entrepreneurship/PYQ/FOE-MIDTERM-2025.pdf"
+      },
+      {
+         name: "FOE-ENDTERM-2025",
+         file: "assets/CSE/sem4/Fundamental of Entrepreneurship/PYQ/FOE-ENDTERM-2025.pdf"
       }
     ],
     Books: [],
