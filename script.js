@@ -172,7 +172,12 @@ const resources = {
          file: "assets/CSE/sem4/Theory Of Computation/PYQ/TOC-ENDTERM-2025.pdf"
       }
     ],
-    Books: [],
+    Books: [
+      {
+        name: "Theory Of Computation Book",
+        file: "assets/CSE/sem4/Theory Of Computation/Books/ TOC Book.pdf"
+      }
+    ],
     Syllabus: [
       {
           name: "Theory Of Computation Syllabus",
@@ -195,8 +200,12 @@ const resources = {
     ],
     Books: [
       {
-        name: "Data Communication Book",
+        name: "Data Communication Book1",
         file: "assets/CSE/sem4/Data Communication/Books/Data Communication.pdf"
+      },
+      {
+        name: "Data Communication Book2",
+        file: "assets/CSE/sem4/Data Communication/Books/Data Communication Book.pdf"
       }
     ],
     Syllabus: [
@@ -239,6 +248,14 @@ const resources = {
       {
          name: "DS-ENDTERM-2024",
          file: "assets/CSE/sem3/Data Structure and Algorithm/PYQ/DS-ENDTERM-2024.pdf"
+      },
+      {
+         name: "DS-ENDTERM-2025",
+         file: "assets/CSE/sem3/Data Structure and Algorithm/PYQ/DS-ENDTERM-2025.pdf"
+      },
+      {
+        name: "DS-MIDTERM-2025",
+         file: "assets/CSE/sem3/Data Structure and Algorithm/PYQ/DS-MIDTERM-2025.pdf"
       }
     ],
     Books: [],
@@ -264,6 +281,14 @@ const resources = {
       {
         name: "DM-ENDTERM-2024",
          file: "assets/CSE/sem3/Discrete Mathematics/PYQ/DM-ENDTERM-2024.pdf"
+      },
+      {
+         name: "DM-MIDTERM-2025",
+         file: "assets/CSE/sem3/Discrete Mathematics/PYQ/DM-MIDTERM-2025.pdf"
+      },
+      {
+         name: "DM-ENDTERM-2025",
+         file: "assets/CSE/sem3/Discrete Mathematics/PYQ/DM-ENDTERM-2025.pdf"
       }
     ],
     Books: [],
@@ -286,6 +311,14 @@ const resources = {
       {
          name: "DBMS-ENDTERM-2024",
          file: "assets/CSE/sem3/Database Management System/PYQ/DBMS-ENDTERM-2024.pdf"
+      },
+      {
+         name: "DBMS-ENDTERM-2025",
+         file: "assets/CSE/sem3/Database Management System/PYQ/DBMS-ENDTERM-2025.pdf"
+      },
+      {
+         name: "DBMS-ENDTERMLAB-2025",
+         file: "assets/CSE/sem3/Database Management System/PYQ/DBMS-ENDTERMLAB-2025.pdf"
       }
     ],
     Books: [],
@@ -307,6 +340,10 @@ const resources = {
       {
           name: "DCD-ENDTERM-2024",
           file: "assets/CSE/sem3/Digital Circuit Design/PYQ/DCD-ENDTERM-2024.pdf"
+      },
+      {
+          name: "DCD-MIDTERM-2025",
+          file: "assets/CSE/sem3/Digital Circuit Design/PYQ/DCD-MIDTERM-2025.pdf"
       }
     ],
     Books: [],
@@ -328,6 +365,14 @@ const resources = {
       {
           name: "PPL-ENDTERM-2024",
           file: "assets/CSE/sem3/Principles of Programming Language/PYQ/PPL-ENDTERM-2024.pdf"
+      },
+      {
+         name: "PPL-ENDTERMLAB-2025",
+          file: "assets/CSE/sem3/Principles of Programming Language/PYQ/PPL-ENDTERMLAB-2025.pdf"
+      },
+      {
+         name: "PPL-MIDTERM-2025",
+          file: "assets/CSE/sem3/Principles of Programming Language/PYQ/PPL-MIDTERM-2025.pdf"
       }
     ],
     Books: [],
@@ -349,6 +394,10 @@ const resources = {
       {
           name: "FOD-ENDTERM-2024",
           file: "assets/CSE/sem3/Fundamental of Design Methods/PYQ/FOD-ENDTERM-2024.pdf" 
+      },
+      {
+          name: "FOD-MIDTERM-2025",
+          file: "assets/CSE/sem3/Fundamental of Design Methods/PYQ/FOD-MIDTERM-2025.pdf" 
       }
     ],
     Books: [],
