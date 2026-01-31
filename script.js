@@ -6,7 +6,8 @@ const departments = [
   { name: "Electrical Engineering", icon: "fa-bolt-lightning" },
   { name: "Mechanical Engineering", icon: "fa-gears" },
   { name: "Civil Engineering", icon: "fa-bridge" },
-  { name: "Chemical Engineering", icon: "fa-flask-vial" }
+  { name: "Chemical Engineering", icon: "fa-flask-vial" },
+  { name: "Materials & Metallurgical Engineering", icon: "fa-industry" }
 ];
 
 const subjects = {
@@ -29,21 +30,21 @@ const subjects = {
   },
 
   "Mechanical Engineering": {
-    3: ["Thermodynamics","Material Science"],
-    4: ["Machine Design","Heat Transfer"],
-    5: ["CAD/CAM","Dynamics"],
-    6: ["Robotics","Manufacturing"],
-    7: ["Operations Research"],
-    8: ["Major Project"]
+    3: ["MATHEMATICS - 3","Fundamentals of Entrepreneurship ","Engineering Thermodynamics","Mechanics of Materials","Material Science and Engineering ","Mechanical Drawing and CAD "],
+    4: ["Mathematics-4","Fundamentals of Design","Machine Design-1","MECHANICS  OF MACHINES","Manufacturing Processes-1","Industrial Engineering and Operations Research"],
+    5: ["Engineering Management","Machine Design 2","I.C. Engines and Gas Turbines","Fluid Mechanics and Hydraulic Machine","Electrical Machines"],
+    6: ["Data Structures and Algorithm","Heat and Mass Transfer","Turbomachines ","Manufacturing Processes-2","Automobile Engineering"],
+    7: ["Engineering Economics and IPR","Refrigeration and Air Conditioning"],
+    8: ["Elective –A Group","Elective –B Group","Elective –C Group"]
   },
 
   "Electrical Engineering": {
-    3: ["Network Analysis","Electrical Measurements","Analog Electronics"],
-    4: ["Control Systems","Power Systems","Electrical Machines"],
-    5: ["Microprocessors","Power Electronics"],
-    6: ["Renewable Energy Systems"], 
-    7: ["High Voltage Engineering"], 
-    8: ["Major Project","Internship","Seminar"]
+    3: ["Applied Numerical Methods ","Fundamentals of Design Methods","EM Fields and Materials","EMEC-I","Network Analysis","Measurement and Instrumentation"],
+    4: ["Fundamentals of Entrepreneurship","Power Systems","EMEC-II","Electronic Devices & Circuits","Generation of Electrical Power","Signals and Systems"],
+    5: ["Data Structures and Algorithm","Power Electronics","Power System Protection","Linear Control system","Utilization of Electrical Energy","Department Elective-1"],
+    6: ["Engineering Management","Electrical Drives","Microprocessor and Microcontrollers","Modern Control System","Department Elective-2"], 
+    7: ["Engineering Economics and IPR","EMEC-III","Department Elective-3","Department Elective-4"], 
+    8: ["Department Elective-5","Department Elective-6","Internship/ Major Project","General Proficiency"]
   },
 
   "Electronics & Comm.": { 
@@ -61,7 +62,18 @@ const subjects = {
     5: ["Mass Transfer","Heat Transfer"], 
     6: ["Chemical Reaction Engineering"], 
     7: ["Process Control"], 
-    8: ["Major Project","Internship","Seminar"] }
+    8: ["Major Project","Internship","Seminar"]
+  },
+
+  "Materials & Metallurgical Engineering": {
+   3: ["Engineering Mathematics-III","Thermodynamics of Materials","Structure of Materials","Physical Metallurgy","Manufacturing Processes"],
+   4: ["Mechanical Metallurgy","Phase Equilibria","Materials Characterization","Extractive Metallurgy","Corrosion Engineering"],
+   5: ["Heat Treatment","Powder Metallurgy","Non-Ferrous Extractive Metallurgy","Ceramics and Refractories","Polymer Science"],
+   6: ["Composite Materials","Failure Analysis","Advanced Materials","Metal Forming Technology"],
+   7: ["Nanomaterials","Surface Engineering","Quality Control and Inspection"],
+   8: ["Major Project","Industrial Training / Internship","Seminar"]
+  }
+
 
 };
 
@@ -71,7 +83,12 @@ const subjects = {
 const resources = {
   /* 4th sem*/ 
   "Software Engineering": {
-    Notes: [],
+    Notes: [
+      {
+        name: "SE-january-Notes",
+        file: "assets/CSE/sem4/Software Engineering/Notes/SE-january-Notes.pdf"
+      }
+    ],
     PYQ: [
       {
         name: "SE-MIDTERM-2025",
@@ -119,7 +136,7 @@ const resources = {
     PYQ: [
       {
          name: "ADA-MIDTERMM-2025",
-         file: "assets/CSE/sem4/Algorithm Design & Analysis/PYQ/ADA-MIDTERMM-2025.pdf"
+         file: "assets/CSE/sem4/Algorithm Design & Analysis/Pyq/ADA-MIDTERMM-2025.pdf"
       }
     ],
     Books: [],
@@ -208,8 +225,16 @@ const resources = {
     Notes: [],
     PYQ: [
       {
-        name: "DS-MIDTERM-2024",
-         file: "assets/CSE/sem3/Data Structure and Algorithm/PYQ/DS-MIDTERM-2024.pdf"
+         name: "DM-MINITEST-2024",
+         file: "assets/CSE/sem3/Discrete Mathematics/PYQ/DM-MINITEST-2024.pdf"
+      },
+      {
+         name: "DM-MIDTERM-2024",
+         file: "assets/CSE/sem3/Discrete Mathematics/PYQ/DM-MIDTERM-2024.pdf"
+      },
+      {
+        name: "DM-ENDTERM-2024",
+         file: "assets/CSE/sem3/Discrete Mathematics/PYQ/DM-ENDTERM-2024.pdf"
       }
     ],
     Books: [],
@@ -224,7 +249,16 @@ const resources = {
 
   "Database Management System": {
     Notes: [],
-    PYQ: [],
+    PYQ: [
+      {
+         name: "DBMS-MIDTERM-2024",
+         file: "assets/CSE/sem3/Database Management System/PYQ/DBMS-MIDTERM-2024.pdf"
+      },
+      {
+         name: "DBMS-ENDTERM-2024",
+         file: "assets/CSE/sem3/Database Management System/PYQ/DBMS-ENDTERM-2024.pdf"
+      }
+    ],
     Books: [],
     Syllabus: [
       {
@@ -236,7 +270,16 @@ const resources = {
 
   "Digital Circuit Design": {
     Notes: [],
-    PYQ: [],
+    PYQ: [
+      {
+          name: "DCD-MIDTERM-2024",
+          file: "assets/CSE/sem3/Digital Circuit Design/PYQ/DCD-MIDTERM-2024.pdf"
+      },
+      {
+          name: "DCD-ENDTERM-2024",
+          file: "assets/CSE/sem3/Digital Circuit Design/PYQ/DCD-ENDTERM-2024.pdf"
+      }
+    ],
     Books: [],
     Syllabus: [
       {
@@ -248,7 +291,16 @@ const resources = {
 
   "Principles of Programming Language": {
     Notes: [],
-    PYQ: [],
+    PYQ: [
+      {
+          name: "PPL-MIDTERM-2024",
+          file: "assets/CSE/sem3/Principles of Programming Language/PYQ/PPL-MIDTERM-2024.pdf"
+      },
+      {
+          name: "PPL-ENDTERM-2024",
+          file: "assets/CSE/sem3/Principles of Programming Language/PYQ/PPL-ENDTERM-2024.pdf"
+      }
+    ],
     Books: [],
     Syllabus: [
       {
@@ -260,7 +312,16 @@ const resources = {
 
   "Fundamental of Design Methods": {
     Notes: [],
-    PYQ: [],
+    PYQ: [
+      {
+          name: "FOD-MIDTERM-2024",
+          file: "assets/CSE/sem3/Fundamental of Design Methods/PYQ/FOD-MIDTERM-2024.pdf" 
+      },
+      {
+          name: "FOD-ENDTERM-2024",
+          file: "assets/CSE/sem3/Fundamental of Design Methods/PYQ/FOD-ENDTERM-2024.pdf" 
+      }
+    ],
     Books: [],
     Syllabus: [
       {
