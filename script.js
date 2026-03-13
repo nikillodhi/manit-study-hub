@@ -89,6 +89,11 @@ const resources = {
                 view: "https://drive.google.com/file/d/1ijcMbk2W_aDXX_8__pXfoK-lKvN74LAA/preview",
                 download: "https://drive.google.com/uc?export=download&id=1ijcMbk2W_aDXX_8__pXfoK-lKvN74LAA"
             },
+            {
+                name: "SE_TILL-MIDSEM",
+                view: "https://drive.google.com/file/d/1HK5Hf9y7UsA8Nq7R1fyS8ZXRCFiVxwFu/preview",
+                download: "https://drive.google.com/uc?export=download&id=1HK5Hf9y7UsA8Nq7R1fyS8ZXRCFiVxwFu"
+            },
         ],
         pyq: [
             {
@@ -150,6 +155,11 @@ const resources = {
                 view: "https://drive.google.com/file/d/13lCODsMOo4uqbEYDNj9InEn74ZiOMFZX/preview",
                 download: "https://drive.google.com/uc?export=download&id=13lCODsMOo4uqbEYDNj9InEn74ZiOMFZX"
             },
+            {
+                name: "ADA_TILL-MIDSEM",
+                view: "https://drive.google.com/file/d/1-a0PRvXhb2HhOSZYOq40tAWfea5YOtWU/preview",
+                download: "https://drive.google.com/uc?export=download&id=1-a0PRvXhb2HhOSZYOq40tAWfea5YOtWU"
+            },
         ],
         pyq: [
 
@@ -191,7 +201,12 @@ const resources = {
                 name: "CSO-NOTES",
                 view: "https://drive.google.com/file/d/1TCC_8gzTZTSLRIWz0j1_53oP2wk_-5XS/preview",
                 download: "https://drive.google.com/uc?export=download&id=1TCC_8gzTZTSLRIWz0j1_53oP2wk_-5XS"
-            }
+            },
+            {
+                name: "CSO_TILL-MIDSEM",
+                view: "https://drive.google.com/file/d/1crFy6-Xd1DXZ-8T8b_flTNJUvSH02eUP/preview",
+                download: "https://drive.google.com/uc?export=download&id=1crFy6-Xd1DXZ-8T8b_flTNJUvSH02eUP"
+            },
         ],
         pyq: [
             {
@@ -243,7 +258,12 @@ const resources = {
                 name: "DC-NOTES",
                 view: "https://drive.google.com/file/d/1zDW5-7fcNXpaiDQJpNDdYRIAm4ZWrCf5/preview",
                 download: "https://drive.google.com/uc?export=download&id=1zDW5-7fcNXpaiDQJpNDdYRIAm4ZWrCf5"
-            }
+            },
+            {
+                name: "DCN_TILL-MIDSEM",
+                view: "https://drive.google.com/file/d/16UpvSBUOtBvj1UUtz7p8-Xfyw-JkOoC4/preview",
+                download: "https://drive.google.com/uc?export=download&id=16UpvSBUOtBvj1UUtz7p8-Xfyw-JkOoC4"
+            },
         ],
         pyq: [
 
@@ -299,6 +319,11 @@ const resources = {
                 view: "https://drive.google.com/file/d/10lmR_EYvgSkfGv8Uccy5od1S19TO4klm/preview",
                 download: "https://drive.google.com/uc?export=download&id=10lmR_EYvgSkfGv8Uccy5od1S19TO4klm"
             },
+            {
+                name: "TOC_TILL-MIDSEM",
+                view: "https://drive.google.com/file/d/1PTiMbG3Z4lWe4Lw-l6QpXhsCr4Ag4kpu/preview",
+                download: "https://drive.google.com/uc?export=download&id=1PTiMbG3Z4lWe4Lw-l6QpXhsCr4Ag4kpu"
+            },
         ],
         pyq: [
             {
@@ -331,7 +356,7 @@ const resources = {
                 view: "https://drive.google.com/file/d/1JlLqbkkoO7fTN4poy6-V3T3XNkyeEFcE/preview",
                 download: "https://drive.google.com/uc?export=download&id=1JlLqbkkoO7fTN4poy6-V3T3XNkyeEFcE"
             },
-            
+
 
         ],
         books: [
@@ -356,7 +381,12 @@ const resources = {
                 name: "FOE-JANUARY-NOTES",
                 view: "https://drive.google.com/file/d/1WW2yeiYdaFjzibEvkZNnHBzArlSK4XPh/preview",
                 download: "https://drive.google.com/uc?export=download&id=1WW2yeiYdaFjzibEvkZNnHBzArlSK4XPh"
-            }
+            },
+            {
+                name: "FOE_TILL-MIDSEM",
+                view: "https://drive.google.com/file/d/1K24cpDpEaj1uQzpmWcR-WJlJoRaeIj3t/preview",
+                download: "https://drive.google.com/uc?export=download&id=1K24cpDpEaj1uQzpmWcR-WJlJoRaeIj3t"
+            },
         ],
         pyq: [
             {
@@ -871,7 +901,7 @@ function closeModal() {
     document.getElementById("resourceModal").style.display = "none";
 }
 
- 
+
 
 
 /* ================== INIT ================== */
