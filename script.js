@@ -126,6 +126,11 @@ const resources = {
                 view: "https://drive.google.com/file/d/1t77D0foCoi5qMnLkUtD5HTh2YHa1K2HY/preview",
                 download: "https://drive.google.com/uc?export=download&id=1t77D0foCoi5qMnLkUtD5HTh2YHa1K2HY"
             },
+            {
+                name: "SE-MIDTERM-2026",
+                view: "https://drive.google.com/file/d/1Amg6Vs9CfvznJmBdw4bIE7bd0gjEudXz/preview",
+                download: "https://drive.google.com/uc?export=download&id=1Amg6Vs9CfvznJmBdw4bIE7bd0gjEudXz"
+            },
         ],
         books: [
             {
@@ -182,7 +187,12 @@ const resources = {
                 name: "ADA-MIDTERM-2023",
                 view: "https://drive.google.com/file/d/1tMnjrSQr9Q4uaTCFYYrz0F_h4bHb9i36/preview",
                 download: "https://drive.google.com/uc?export=download&id=1tMnjrSQr9Q4uaTCFYYrz0F_h4bHb9i36"
-            }
+            },
+            {
+                name: "ADA-MIDTERM-2026",
+                view: "https://drive.google.com/file/d/1bcdY4Zs-XdiaxE8gP9zVijMpH6U9_mQb/preview",
+                download: "https://drive.google.com/uc?export=download&id=1bcdY4Zs-XdiaxE8gP9zVijMpH6U9_mQb"
+            },
 
         ],
         books: [],
@@ -233,7 +243,12 @@ const resources = {
                 name: "CSO-ENDTERM-2023",
                 view: "https://drive.google.com/file/d/1lcGP-QCLzZJlGn3hq3_yi4DBKsrNJ8CO/preview",
                 download: "https://drive.google.com/uc?export=download&id=1lcGP-QCLzZJlGn3hq3_yi4DBKsrNJ8CO"
-            }
+            },
+            {
+                name: "CSO-MIDTERM-2026",
+                view: "https://drive.google.com/file/d/1v0FQwldAYYH6mkKG-GnuE3Q2rBXAWlWa/preview",
+                download: "https://drive.google.com/uc?export=download&id=1v0FQwldAYYH6mkKG-GnuE3Q2rBXAWlWa"
+            },
 
         ],
         books: [
@@ -286,6 +301,11 @@ const resources = {
                 name: "DC-MIDTERM-2023",
                 view: "https://drive.google.com/file/d/18UDiGHoAm_ZZMO7Pap3Lp3wQPc39Mxlc/preview",
                 download: "https://drive.google.com/uc?export=download&id=18UDiGHoAm_ZZMO7Pap3Lp3wQPc39Mxlc"
+            },
+            {
+                name: "DC-MIDTERM-2026",
+                view: "https://drive.google.com/file/d/14gWGA4Y0fapk68PuvAxfn60MKktqwklY/preview",
+                download: "https://drive.google.com/uc?export=download&id=14gWGA4Y0fapk68PuvAxfn60MKktqwklY"
             },
         ],
         books: [
@@ -356,6 +376,11 @@ const resources = {
                 view: "https://drive.google.com/file/d/1JlLqbkkoO7fTN4poy6-V3T3XNkyeEFcE/preview",
                 download: "https://drive.google.com/uc?export=download&id=1JlLqbkkoO7fTN4poy6-V3T3XNkyeEFcE"
             },
+            {
+                name: "TOC MIDTERM-2026",
+                view: "https://drive.google.com/file/d/13ViyKJaMM4dfWSpXPTgeal4TLqAou25c/preview",
+                download: "https://drive.google.com/uc?export=download&id=13ViyKJaMM4dfWSpXPTgeal4TLqAou25c"
+            },
 
 
         ],
@@ -409,7 +434,12 @@ const resources = {
                 name: "FOE-ENDTERM-2024",
                 view: "https://drive.google.com/file/d/1FA44-EZgs0JuwjBQdjOzDtKJItrv3yiA/preview",
                 download: "https://drive.google.com/uc?export=download&id=1FA44-EZgs0JuwjBQdjOzDtKJItrv3yiA"
-            }
+            },
+            {
+                name: "FOE-MIDTERM-2026",
+                view: "https://drive.google.com/file/d/196uJBp7vg1vC7QD1lTts5aZ8kD5obh0J/preview",
+                download: "https://drive.google.com/uc?export=download&id=196uJBp7vg1vC7QD1lTts5aZ8kD5obh0J"
+            },
         ],
         books: [
             {
