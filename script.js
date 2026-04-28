@@ -94,6 +94,22 @@ const resources = {
                 view: "https://drive.google.com/file/d/1HK5Hf9y7UsA8Nq7R1fyS8ZXRCFiVxwFu/preview",
                 download: "https://drive.google.com/uc?export=download&id=1HK5Hf9y7UsA8Nq7R1fyS8ZXRCFiVxwFu"
             },
+            {
+                name: "Software Project Management",
+                view: "https://drive.google.com/file/d/1I6T095Fi2uChAQ_Zg0WuuNoAP3RG3DRD/preview",
+                download: "https://drive.google.com/uc?export=download&id=1I6T095Fi2uChAQ_Zg0WuuNoAP3RG3DRD"
+            },
+            {
+                name: "Software Design and Testing",
+                view: "https://drive.google.com/file/d/1Gpmi5FP74Gd8iyKGfDUVclH2Im7FAx3h/preview",
+                download: "https://drive.google.com/uc?export=download&id=1Gpmi5FP74Gd8iyKGfDUVclH2Im7FAx3h"
+            },
+            {
+                name: "SDLC Models",
+                view: "https://drive.google.com/file/d/1Dq87INdJEPH1gdvye5DW-yePHxO4VQzv/preview",
+                download: "https://drive.google.com/uc?export=download&id=1Dq87INdJEPH1gdvye5DW-yePHxO4VQzv"
+            },
+            
         ],
         pyq: [
             {
@@ -131,6 +147,11 @@ const resources = {
                 view: "https://drive.google.com/file/d/1Amg6Vs9CfvznJmBdw4bIE7bd0gjEudXz/preview",
                 download: "https://drive.google.com/uc?export=download&id=1Amg6Vs9CfvznJmBdw4bIE7bd0gjEudXz"
             },
+            {
+                name: "SE-MIDTERM-SOLUTION-2026",
+                view: "https://drive.google.com/file/d/10NaUDTJtjDwD34pw1fknboI6L3G5jdt4/preview",
+                download: "https://drive.google.com/uc?export=download&id=10NaUDTJtjDwD34pw1fknboI6L3G5jdt4"
+            },
         ],
         books: [
             {
@@ -165,6 +186,31 @@ const resources = {
                 view: "https://drive.google.com/file/d/1-a0PRvXhb2HhOSZYOq40tAWfea5YOtWU/preview",
                 download: "https://drive.google.com/uc?export=download&id=1-a0PRvXhb2HhOSZYOq40tAWfea5YOtWU"
             },
+            {
+                name: "Dynamic Programming",
+                view: "https://drive.google.com/file/d/1frr2WG33TmNqR9X_NhVVKbH7AVn3mZOt/preview",
+                download: "https://drive.google.com/uc?export=download&id=1frr2WG33TmNqR9X_NhVVKbH7AVn3mZOt"
+            },
+            {
+                name: "Divide and Conquer",
+                view: "https://drive.google.com/file/d/1kFNJPT8QQNA4TIZMl6hRYEBNA4H3Ob5D/preview",
+                download: "https://drive.google.com/uc?export=download&id=1kFNJPT8QQNA4TIZMl6hRYEBNA4H3Ob5D"
+            },
+            {
+                name: "Asymptotic Notations",
+                view: "https://drive.google.com/file/d/1GR-fYReLC9R1nBLviO_aW0dXXm1z95MV/preview",
+                download: "https://drive.google.com/uc?export=download&id=1GR-fYReLC9R1nBLviO_aW0dXXm1z95MV"
+            },
+            {
+                name: "Greedy Approach",
+                view: "https://drive.google.com/file/d/1FhrHePEAuRb8TKYqH1VppAwbA6CBU3zA/preview",
+                download: "https://drive.google.com/uc?export=download&id=1FhrHePEAuRb8TKYqH1VppAwbA6CBU3zA"
+            },
+            {
+                name: "dynamic-allocation_using_visualiz_eway",
+                view: "https://drive.google.com/file/d/1mS9cTu72rWXp4Rpl-_gHLnPYxeWdm3Rc/preview",
+                download: "https://drive.google.com/uc?export=download&id=1mS9cTu72rWXp4Rpl-_gHLnPYxeWdm3Rc"
+            },
         ],
         pyq: [
 
@@ -193,6 +239,11 @@ const resources = {
                 view: "https://drive.google.com/file/d/1bcdY4Zs-XdiaxE8gP9zVijMpH6U9_mQb/preview",
                 download: "https://drive.google.com/uc?export=download&id=1bcdY4Zs-XdiaxE8gP9zVijMpH6U9_mQb"
             },
+            {
+                name: "ADA-MIDTERM-SOLUTION-2026",
+                view: "https://drive.google.com/file/d/1zyvdjTE6209Ce2Ew8O86vlQAtyQpE8nl/preview",
+                download: "https://drive.google.com/uc?export=download&id=1zyvdjTE6209Ce2Ew8O86vlQAtyQpE8nl"
+            },
 
         ],
         books: [],
@@ -216,6 +267,36 @@ const resources = {
                 name: "CSO_TILL-MIDSEM",
                 view: "https://drive.google.com/file/d/1crFy6-Xd1DXZ-8T8b_flTNJUvSH02eUP/preview",
                 download: "https://drive.google.com/uc?export=download&id=1crFy6-Xd1DXZ-8T8b_flTNJUvSH02eUP"
+            },
+            {
+                name: "Instruction Cycle",
+                view: "https://drive.google.com/file/d/1uNRMZFpKIT5-1k8HxpQ3VwzVvP6xQhIv/preview",
+                download: "https://drive.google.com/uc?export=download&id=1uNRMZFpKIT5-1k8HxpQ3VwzVvP6xQhIv"
+            },
+            {
+                name: "IO Organisation",
+                view: "https://drive.google.com/file/d/1E5PG8IwkDyufGEkFqmi3_eIK6_Ycs9ir/preview",
+                download: "https://drive.google.com/uc?export=download&id=1E5PG8IwkDyufGEkFqmi3_eIK6_Ycs9ir"
+            },
+            {
+                name: "Memory",
+                view: "https://drive.google.com/file/d/1UfOBeVcm_2byeNO-fD3QwGKvZXpuJWgk/preview",
+                download: "https://drive.google.com/uc?export=download&id=1UfOBeVcm_2byeNO-fD3QwGKvZXpuJWgk"
+            },
+            {
+                name: "Multiplexing",
+                view: "https://drive.google.com/file/d/1nd2qTALqk-BzMUL6KovQJ7oGWssgmOQr/preview",
+                download: "https://drive.google.com/uc?export=download&id=1nd2qTALqk-BzMUL6KovQJ7oGWssgmOQr"
+            },
+            {
+                name: "Normalisation and Arithmetic",
+                view: "https://drive.google.com/file/d/1c5exAlnUufXpXStq9i9zUP0rO-apqJvH/preview",
+                download: "https://drive.google.com/uc?export=download&id=1c5exAlnUufXpXStq9i9zUP0rO-apqJvH"
+            },
+            {
+                name: "Pipelining",
+                view: "https://drive.google.com/file/d/15mBmmxWd4P4gox-jiJ0Nc77tkciAmVyU/preview",
+                download: "https://drive.google.com/uc?export=download&id=15mBmmxWd4P4gox-jiJ0Nc77tkciAmVyU"
             },
         ],
         pyq: [
@@ -249,6 +330,21 @@ const resources = {
                 view: "https://drive.google.com/file/d/1v0FQwldAYYH6mkKG-GnuE3Q2rBXAWlWa/preview",
                 download: "https://drive.google.com/uc?export=download&id=1v0FQwldAYYH6mkKG-GnuE3Q2rBXAWlWa"
             },
+            {
+                name: "CSO-MIDTERM-SOLUTION-2026",
+                view: "https://drive.google.com/file/d/1JVpnUMZCXp0szqojrp-ux-ZSTSC2KxFY/preview",
+                download: "https://drive.google.com/uc?export=download&id=1JVpnUMZCXp0szqojrp-ux-ZSTSC2KxFY"
+            },
+            {
+                name: "CSO-ENDTERM-SOLUTION-2023 (MAY SOME WRONG ANSWER)",
+                view: "https://drive.google.com/file/d/1q1fIHAcrQu2POl-p8MsWwSzXiXXhSYU9/preview",
+                download: "https://drive.google.com/uc?export=download&id=1q1fIHAcrQu2POl-p8MsWwSzXiXXhSYU9"
+            },
+            {
+                name: "CSO-ENDTERM-SOLUTION-2025 (MAY SOME WRONG ANSWER)",
+                view: "https://drive.google.com/file/d/18_dC-bwB8BUcuT4UrQh71fM9zdw1f-zV/preview",
+                download: "https://drive.google.com/uc?export=download&id=18_dC-bwB8BUcuT4UrQh71fM9zdw1f-zV"
+            },
 
         ],
         books: [
@@ -279,6 +375,21 @@ const resources = {
                 view: "https://drive.google.com/file/d/16UpvSBUOtBvj1UUtz7p8-Xfyw-JkOoC4/preview",
                 download: "https://drive.google.com/uc?export=download&id=16UpvSBUOtBvj1UUtz7p8-Xfyw-JkOoC4"
             },
+            {
+                name: "Basics of Data Comm",
+                view: "https://drive.google.com/file/d/124C-OQ4KdfmzmaMaFyP4Rik823TQiZSD/preview",
+                download: "https://drive.google.com/uc?export=download&id=124C-OQ4KdfmzmaMaFyP4Rik823TQiZSD"
+            },
+            {
+                name: "Error Detection and Correction",
+                view: "https://drive.google.com/file/d/1qtg3t0y8Z_UVu5AGEJg4L8g98v_ftkxv/preview",
+                download: "https://drive.google.com/uc?export=download&id=1qtg3t0y8Z_UVu5AGEJg4L8g98v_ftkxv"
+            },
+            {
+                name: "Transmission Techniques",
+                view: "https://drive.google.com/file/d/12ZJorQgnbeNM5z2TNH8vX78hZbV1iSPa/preview",
+                download: "https://drive.google.com/uc?export=download&id=12ZJorQgnbeNM5z2TNH8vX78hZbV1iSPa"
+            },
         ],
         pyq: [
 
@@ -306,6 +417,11 @@ const resources = {
                 name: "DC-MIDTERM-2026",
                 view: "https://drive.google.com/file/d/14gWGA4Y0fapk68PuvAxfn60MKktqwklY/preview",
                 download: "https://drive.google.com/uc?export=download&id=14gWGA4Y0fapk68PuvAxfn60MKktqwklY"
+            },
+            {
+                name: "DC-MIDTERM-SOLUTION-2026",
+                view: "https://drive.google.com/file/d/1ylm3XuxWS-lnxttx-RmpHAdIQvoowE-5/preview",
+                download: "https://drive.google.com/uc?export=download&id=1ylm3XuxWS-lnxttx-RmpHAdIQvoowE-5"
             },
         ],
         books: [
@@ -343,6 +459,26 @@ const resources = {
                 name: "TOC_TILL-MIDSEM",
                 view: "https://drive.google.com/file/d/1PTiMbG3Z4lWe4Lw-l6QpXhsCr4Ag4kpu/preview",
                 download: "https://drive.google.com/uc?export=download&id=1PTiMbG3Z4lWe4Lw-l6QpXhsCr4Ag4kpu"
+            },
+            {
+                name: "ALL TOPICS COVERED",
+                view: "https://drive.google.com/file/d/1wj7GSsPZJDEpyNYdw-LCtACQ8PYFmwIv/preview",
+                download: "https://drive.google.com/uc?export=download&id=1wj7GSsPZJDEpyNYdw-LCtACQ8PYFmwIv"
+            },
+            {
+                name: "BASIC OF TOC",
+                view: "https://drive.google.com/file/d/1caygTDBkDC6ZDM081VWQsJ37HR_XwErX/preview",
+                download: "https://drive.google.com/uc?export=download&id=1caygTDBkDC6ZDM081VWQsJ37HR_XwErX"
+            },
+            {
+                name: "CFG",
+                view: "https://drive.google.com/file/d/11RzpXev_2ReNp3gXESRH9CRmQnN3Kp9n/preview",
+                download: "https://drive.google.com/uc?export=download&id=11RzpXev_2ReNp3gXESRH9CRmQnN3Kp9n"
+            },
+            {
+                name: "Push Down Automata(PDA)",
+                view: "https://drive.google.com/file/d/1-6TpSkRFTy7Rs1Ou8jWUWW1MbuwTRkEH/preview",
+                download: "https://drive.google.com/uc?export=download&id=1-6TpSkRFTy7Rs1Ou8jWUWW1MbuwTRkEH"
             },
         ],
         pyq: [
@@ -412,6 +548,16 @@ const resources = {
                 view: "https://drive.google.com/file/d/1K24cpDpEaj1uQzpmWcR-WJlJoRaeIj3t/preview",
                 download: "https://drive.google.com/uc?export=download&id=1K24cpDpEaj1uQzpmWcR-WJlJoRaeIj3t"
             },
+            {
+                name: "FUNDAMENTAL OF ENTREPRENEURSHIP",
+                view: "https://drive.google.com/file/d/1npvgkA9PgU8kNgzG38IjfkfDBppWPRVi/preview",
+                download: "https://drive.google.com/uc?export=download&id=1npvgkA9PgU8kNgzG38IjfkfDBppWPRVi"
+            },
+            {
+                name: "ENTREPRENEURSHIP",
+                view: "https://drive.google.com/file/d/1ElsgOXrO8Aayi6bcw9i3Lw-Gpjz-pqiG/preview",
+                download: "https://drive.google.com/uc?export=download&id=1ElsgOXrO8Aayi6bcw9i3Lw-Gpjz-pqiG"
+            },
         ],
         pyq: [
             {
@@ -440,6 +586,7 @@ const resources = {
                 view: "https://drive.google.com/file/d/196uJBp7vg1vC7QD1lTts5aZ8kD5obh0J/preview",
                 download: "https://drive.google.com/uc?export=download&id=196uJBp7vg1vC7QD1lTts5aZ8kD5obh0J"
             },
+
         ],
         books: [
             {
