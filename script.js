@@ -12,7 +12,7 @@ const subjects = {
     "Computer Science & Eng.": {
         3: ["discrete-mathematics", "principles-of-programming-language", "data-structure-and-algorithm", "database-management-system", "digital-circuit-design", "fundamental-of-design-methods"],
         4: ["fundamental-of-entrepreneurship", "software-engineering", "computer-system-organization", "theory-of-computation", "data-communication", "algorithm-design-and-analysis"],
-        5: ["operating-systems", "compiler-design", "computer-networks", "statistical-models-for-data-interpretation-and-analysis", "artificial-intelligence"],
+        5: ["operating-systems", "data-science", "data-warehousing-&-mining", "computer-networks", "statistical-models-for-data-interpretation-and-analysis", "artificial-intelligence"],
         6: ["engineering-management", "machine-learning", "digital-image-processing", "network-and-system-security"],
         7: ["engineering-economics-and-ipr", "data-warehouse-and-mining", "computer-vision-and-image-processing"],
         8: ["major-project", "industrial-training", "seminar"]
@@ -80,6 +80,291 @@ const subjects = {
 /*                   FILE DATA (REAL FILES)                      */
 const resources = {
 
+    /* ================= SEM 3 ================= */
+
+    "data-structure-and-algorithm": {
+        notes: [],
+        pyq: [
+            {
+                name: "DS-ENDTERM-2024",
+                view: "https://drive.google.com/file/d/1tSSTrwO3uGwopX5InQ-XZSKF8jmWQZSO/preview",
+                download: "https://drive.google.com/uc?export=download&id=1tSSTrwO3uGwopX5InQ-XZSKF8jmWQZSO"
+            },
+            {
+                name: "DS-ENDTERM-2024",
+                view: "https://drive.google.com/file/d/14eSvgVtOnggQf5urgtM62VpLl5ZjW0Y4/preview",
+                download: "https://drive.google.com/uc?export=download&id=14eSvgVtOnggQf5urgtM62VpLl5ZjW0Y4"
+            },
+            {
+                name: "DS-MIDTERM-2024",
+                view: "https://drive.google.com/file/d/1WhW6vX4MXkyEtVvRcIVU35iDV4LPCSmM/preview",
+                download: "https://drive.google.com/uc?export=download&id=1WhW6vX4MXkyEtVvRcIVU35iDV4LPCSmM"
+            },
+            {
+                name: "DS-MIDTERM-2025",
+                view: "https://drive.google.com/file/d/1zfRXdPTKxqsl623kVLKfowLWVJj_JNVd/preview",
+                download: "https://drive.google.com/uc?export=download&id=1zfRXdPTKxqsl623kVLKfowLWVJj_JNVd"
+            },
+            {
+                name: "DS-MIDTERM-2022",
+                view: "https://drive.google.com/file/d/1q0LKPfisKHHBXduTDgPGhuK07KeYrr5k/preview",
+                download: "https://drive.google.com/uc?export=download&id=1q0LKPfisKHHBXduTDgPGhuK07KeYrr5k"
+            },
+            {
+                name: "DS-ENDTERM-2022",
+                view: "https://drive.google.com/file/d/1jVo3xoHBI9P-XtFkxnH9BS78okVJxkSD/preview",
+                download: "https://drive.google.com/uc?export=download&id=1jVo3xoHBI9P-XtFkxnH9BS78okVJxkSD"
+            },
+
+
+        ],
+        books: [],
+        syllabus: [
+            {
+                name: "DS-Syllabus",
+                view: "https://drive.google.com/file/d/18QES5xoswxyizbxdxLZ0RVUUtJ-qEqyZ/preview",
+                download: "https://drive.google.com/uc?export=download&id=18QES5xoswxyizbxdxLZ0RVUUtJ-qEqyZ"
+            }
+        ]
+    },
+
+    "discrete-mathematics": {
+        notes: [],
+        pyq: [
+
+            {
+                name: "DM-ENDTERM-2025",
+                view: "https://drive.google.com/file/d/1w0mIS8Y0pmW-XZtC6jBgtEvQF_lG0Zd_/preview",
+                download: "https://drive.google.com/uc?export=download&id=1w0mIS8Y0pmW-XZtC6jBgtEvQF_lG0Zd_"
+            },
+            {
+                name: "DM-ENDTERM-2024",
+                view: "https://drive.google.com/file/d/17HzomNLdM6E3KSRMIeS6zKoJSQExqxrQ/preview",
+                download: "https://drive.google.com/uc?export=download&id=17HzomNLdM6E3KSRMIeS6zKoJSQExqxrQ"
+            },
+            {
+                name: "DM-MIDTERM-2024",
+                view: "https://drive.google.com/file/d/1iwA0e7r8YOTw2Uv7pycofVZQK9-I74sl/preview",
+                download: "https://drive.google.com/uc?export=download&id=1iwA0e7r8YOTw2Uv7pycofVZQK9-I74sl"
+            },
+            {
+                name: "DM-MIDTERM-2025",
+                view: "https://drive.google.com/file/d/10GZQKaIcuiujQx3gBoSgO0W5jAKVv7J1/preview",
+                download: "https://drive.google.com/uc?export=download&id=10GZQKaIcuiujQx3gBoSgO0W5jAKVv7J1"
+            },
+            {
+                name: "DM-MINITEST-2024",
+                view: "https://drive.google.com/file/d/1meEW0JydOotsr6s1fWgO67BPpmPvqpMs/preview",
+                download: "https://drive.google.com/uc?export=download&id=1meEW0JydOotsr6s1fWgO67BPpmPvqpMs"
+            },
+            {
+                name: "DM-MINITEST",
+                view: "https://drive.google.com/file/d/1R3E7u0D5DWZpBdKXSTxPcKho88SxhDs8/preview",
+                download: "https://drive.google.com/uc?export=download&id=1R3E7u0D5DWZpBdKXSTxPcKho88SxhDs8"
+            },
+            {
+                name: "DM-MIDTERM-2022",
+                view: "https://drive.google.com/file/d/1ywpELfM8mi1pDBVSXnfriZgWjvqCmldA/preview",
+                download: "https://drive.google.com/uc?export=download&id=1ywpELfM8mi1pDBVSXnfriZgWjvqCmldA"
+            },
+            {
+                name: "DM-ENDTERM-2022",
+                view: "https://drive.google.com/file/d/1P402QkTRhWb8KhKvZqTsnLxlRVK8Wj6a/preview",
+                download: "https://drive.google.com/uc?export=download&id=1P402QkTRhWb8KhKvZqTsnLxlRVK8Wj6a"
+            },
+        ],
+        books: [],
+        syllabus: [
+            {
+                name: "DM-Syllabus",
+                view: "https://drive.google.com/file/d/1U26zHRzd3Hp2PlU_rj02pS5xAig3F6mB/preview",
+                download: "https://drive.google.com/uc?export=download&id=1U26zHRzd3Hp2PlU_rj02pS5xAig3F6mB"
+            }
+        ]
+    },
+
+    "database-management-system": {
+        notes: [],
+        pyq: [
+
+            {
+                name: "DBMS-ENDTERM-2024",
+                view: "https://drive.google.com/file/d/1fLm1k-U6P3Xypll4BJZpSHoJC99YDZ5L/preview",
+                download: "https://drive.google.com/uc?export=download&id=1fLm1k-U6P3Xypll4BJZpSHoJC99YDZ5L"
+            },
+            {
+                name: "DBMS-ENDTERM-2025",
+                view: "https://drive.google.com/file/d/1aBdoIJ_VDZaj1BewqZs_783sh-9fmSU3/preview",
+                download: "https://drive.google.com/uc?export=download&id=1aBdoIJ_VDZaj1BewqZs_783sh-9fmSU3"
+            },
+            {
+                name: "DBMS-ENDTERMLAB-2025",
+                view: "https://drive.google.com/file/d/1eHRNelFC8hfdM_xkGBA4DEUP6Ae_XSHd/preview",
+                download: "https://drive.google.com/uc?export=download&id=1eHRNelFC8hfdM_xkGBA4DEUP6Ae_XSHd"
+            },
+            {
+                name: "DBMS-MIDTERM-2024",
+                view: "https://drive.google.com/file/d/1xT0ZU-wIBED1Nke1vGaLFwViaIdBfbsS/preview",
+                download: "https://drive.google.com/uc?export=download&id=1xT0ZU-wIBED1Nke1vGaLFwViaIdBfbsS"
+            },
+
+            {
+                name: "DBMS-MINITEST-2022",
+                view: "https://drive.google.com/file/d/19FwCiEpEbmdo5cYZ1ONxeaghsM76zxph/preview",
+                download: "https://drive.google.com/uc?export=download&id=19FwCiEpEbmdo5cYZ1ONxeaghsM76zxph"
+            },
+            {
+                name: "DBMS-MIDTERM-2022",
+                view: "https://drive.google.com/file/d/1oVgO6r_VZuDR-4amTZD6UzsV0_wjdkgH/preview",
+                download: "https://drive.google.com/uc?export=download&id=1oVgO6r_VZuDR-4amTZD6UzsV0_wjdkgH"
+            },
+            {
+                name: "DBMS-ENDTERM-2022",
+                view: "https://drive.google.com/file/d/15o5nIhgK3KpD_K37F6N5QYKhbMn2hWEB/preview",
+                download: "https://drive.google.com/uc?export=download&id=15o5nIhgK3KpD_K37F6N5QYKhbMn2hWEB"
+            },
+
+
+
+        ],
+        books: [],
+        syllabus: [
+            {
+                name: "DBMS-Syllabus",
+                view: "https://drive.google.com/file/d/10kIjlM8XcbIJ24S2c7t0-5jhp01Hlp4y/preview",
+                download: "https://drive.google.com/uc?export=download&id=10kIjlM8XcbIJ24S2c7t0-5jhp01Hlp4y"
+            }
+        ]
+    },
+
+    "digital-circuit-design": {
+        notes: [],
+        pyq: [
+            {
+                name: "DCD-MIDTERM-2024",
+                view: "https://drive.google.com/file/d/1F4BAz4jUN6v1Xsq1Y_HX6ZxMxx15sb0f/preview",
+                download: "https://drive.google.com/uc?export=download&id=1F4BAz4jUN6v1Xsq1Y_HX6ZxMxx15sb0f"
+            },
+            {
+                name: "DCD-ENDTERM-2024",
+                view: "https://drive.google.com/file/d/1cjg-oYeBU2azTA1PeE79Yzw4UwNGxS1E/preview",
+                download: "https://drive.google.com/uc?export=download&id=1cjg-oYeBU2azTA1PeE79Yzw4UwNGxS1E"
+            },
+            {
+                name: "DCD-ENDTERM-2025",
+                view: "https://drive.google.com/file/d/1vJHS5Mjg3E-UaGRqRN4qfyybvLTlvlKI/preview",
+                download: "https://drive.google.com/uc?export=download&id=1vJHS5Mjg3E-UaGRqRN4qfyybvLTlvlKI"
+            },
+            {
+                name: "DCD-MIDTERM-2022",
+                view: "https://drive.google.com/file/d/15kVsT3rGh4HAbK17R_gUw9_aMswKrwtN/preview",
+                download: "https://drive.google.com/uc?export=download&id=15kVsT3rGh4HAbK17R_gUw9_aMswKrwtN"
+            },
+            {
+                name: "DCD-ENDTERM-2022",
+                view: "https://drive.google.com/file/d/1FeiVNEGbid24ajogvi0VPTqS4yETLlku/preview",
+                download: "https://drive.google.com/uc?export=download&id=1FeiVNEGbid24ajogvi0VPTqS4yETLlku"
+            },
+
+
+        ],
+        books: [],
+        syllabus: [
+            {
+                name: "DCD-Syllabus",
+                view: "https://drive.google.com/file/d/1oLt-_C3BP7WUZZJQkX_pSzoyvLtZgYRE/preview",
+                download: "https://drive.google.com/uc?export=download&id=1oLt-_C3BP7WUZZJQkX_pSzoyvLtZgYRE"
+            }
+        ]
+    },
+
+    "principles-of-programming-language": {
+        notes: [],
+        pyq: [
+            {
+                name: "PPL-ENDTERM-2025",
+                view: "https://drive.google.com/file/d/1UxSgqN_HjSdYiYJB6gZq7y2IUtm-Ma6_/preview",
+                download: "https://drive.google.com/uc?export=download&id=1UxSgqN_HjSdYiYJB6gZq7y2IUtm-Ma6_"
+            },
+            {
+                name: "PPL-MIDTERMLAB-2025",
+                view: "https://drive.google.com/file/d/1SJBqvST7DXCIpX-i19aLjQMx6MYkVgJ4/preview",
+                download: "https://drive.google.com/uc?export=download&id=1SJBqvST7DXCIpX-i19aLjQMx6MYkVgJ4"
+            },
+            {
+                name: "PPL-MIDTERM-2024",
+                view: "https://drive.google.com/file/d/1T2-E_A8CDUNlarTq_IqgrhJ_ZNlCv3Dt/preview",
+                download: "https://drive.google.com/uc?export=download&id=1T2-E_A8CDUNlarTq_IqgrhJ_ZNlCv3Dt"
+            },
+            {
+                name: "PPL-MIDTERM-2025",
+                view: "https://drive.google.com/file/d/11TApYxPDX4RWl_77G_iMChknJJhpEH4E/preview",
+                download: "https://drive.google.com/uc?export=download&id=11TApYxPDX4RWl_77G_iMChknJJhpEH4E"
+            },
+            {
+                name: "PPL-MIDTERM-2022",
+                view: "https://drive.google.com/file/d/1GkB1jymWj1yakH4BOMqMdnyau2kjgqcb/preview",
+                download: "https://drive.google.com/uc?export=download&id=1GkB1jymWj1yakH4BOMqMdnyau2kjgqcb"
+            },
+            {
+                name: "PPL-ENDTERM-2022",
+                view: "https://drive.google.com/file/d/16JVdfqJhamT0ar8s1f9E-6CT5GHGjI0j/preview",
+                download: "https://drive.google.com/uc?export=download&id=16JVdfqJhamT0ar8s1f9E-6CT5GHGjI0j"
+            },
+
+
+
+        ],
+        books: [],
+        syllabus: [
+            {
+                name: "PPL-SyllabuS",
+                view: "https://drive.google.com/file/d/1aFwbROpsfNYITj0nUE-iq-9TvOvrcI9q/preview",
+                download: "https://drive.google.com/uc?export=download&id=1aFwbROpsfNYITj0nUE-iq-9TvOvrcI9q"
+            }
+        ]
+    },
+
+    "fundamental-of-design-methods": {
+        notes: [],
+        pyq: [
+            {
+                name: "FOD-ENDTERM-2024",
+                view: "https://drive.google.com/file/d/17arz7aNqcEnCPUixscNv9ggu3nV63YIn/preview",
+                download: "https://drive.google.com/uc?export=download&id=17arz7aNqcEnCPUixscNv9ggu3nV63YIn"
+            },
+            {
+                name: "FOD-MIDTERM-2024",
+                view: "https://drive.google.com/file/d/1_k15Y8PotI6vQR66RBQwoz9Bhejkr0B5/preview",
+                download: "https://drive.google.com/uc?export=download&id=1_k15Y8PotI6vQR66RBQwoz9Bhejkr0B5"
+            },
+            {
+                name: "FOD-ENDTERM-2025",
+                view: "https://drive.google.com/file/d/1BXiJb7NuWHfOnD6QT7_fLn4xNbqXj-1W/preview",
+                download: "https://drive.google.com/uc?export=download&id=1BXiJb7NuWHfOnD6QT7_fLn4xNbqXj-1W"
+            },
+            {
+                name: "FOD-MIDTERM-2022",
+                view: "https://drive.google.com/file/d/1M0ZYVo-7jN6roKYFelk3bv1dzP-CRrTr/preview",
+                download: "https://drive.google.com/uc?export=download&id=1M0ZYVo-7jN6roKYFelk3bv1dzP-CRrTr"
+            },
+            {
+                name: "FOD-ENDTERM-2022",
+                view: "https://drive.google.com/file/d/1625zhWm0u5FgVtVVvrZRMPB2GqVLJdHm/preview",
+                download: "https://drive.google.com/uc?export=download&id=1625zhWm0u5FgVtVVvrZRMPB2GqVLJdHm"
+            },
+
+
+        ],
+        books: [],
+        syllabus: [
+            {
+                name: "FOD-Syllabus",
+                view: "https://drive.google.com/file/d/1hII2WxWAamAeYuW16iH_hXLQ6GqUvTKN/preview",
+                download: "https://drive.google.com/uc?export=download&id=1hII2WxWAamAeYuW16iH_hXLQ6GqUvTKN"
+            }
+        ]
+    },
     /* ================= SEM 4 ================= */
 
     "software-engineering": {
@@ -109,7 +394,7 @@ const resources = {
                 view: "https://drive.google.com/file/d/1Dq87INdJEPH1gdvye5DW-yePHxO4VQzv/preview",
                 download: "https://drive.google.com/uc?export=download&id=1Dq87INdJEPH1gdvye5DW-yePHxO4VQzv"
             },
-            
+
         ],
         pyq: [
             {
@@ -624,298 +909,189 @@ const resources = {
         ]
     },
 
-    /* ================= SEM 3 ================= */
+    /* ================= SEM 5 ================= */
 
-    "data-structure-and-algorithm": {
-        notes: [],
+    "operating-systems": {
+        notes: [
+            {
+                name: "NOTES TILL_MINI",
+                view: "https://drive.google.com/file/d/1FEKvz3VFMwMlVAFuzcxCFVW_Ae8LDGCt/preview",
+                download: "https://drive.google.com/uc?export=download&id=1FEKvz3VFMwMlVAFuzcxCFVW_Ae8LDGCt"
+            },
+        ],
+
         pyq: [
             {
-                name: "DS-ENDTERM-2024",
-                view: "https://drive.google.com/file/d/1tSSTrwO3uGwopX5InQ-XZSKF8jmWQZSO/preview",
-                download: "https://drive.google.com/uc?export=download&id=1tSSTrwO3uGwopX5InQ-XZSKF8jmWQZSO"
+                name: "MIDTERM_2024",
+                view: "https://drive.google.com/file/d/1IQENAJp_dwUvtTX3xBAs7IUG9-4gqk5Q/preview",
+                download: "https://drive.google.com/uc?export=download&id=1IQENAJp_dwUvtTX3xBAs7IUG9-4gqk5Q"
             },
             {
-                name: "DS-ENDTERM-2024",
-                view: "https://drive.google.com/file/d/14eSvgVtOnggQf5urgtM62VpLl5ZjW0Y4/preview",
-                download: "https://drive.google.com/uc?export=download&id=14eSvgVtOnggQf5urgtM62VpLl5ZjW0Y4"
+                name: "ENDTERM_2024",
+                view: "https://drive.google.com/file/d/1LzhMoCDSPH3zYsn39qsmeATvDlPALrPg/preview",
+                download: "https://drive.google.com/uc?export=download&id=1LzhMoCDSPH3zYsn39qsmeATvDlPALrPg"
             },
-            {
-                name: "DS-MIDTERM-2024",
-                view: "https://drive.google.com/file/d/1WhW6vX4MXkyEtVvRcIVU35iDV4LPCSmM/preview",
-                download: "https://drive.google.com/uc?export=download&id=1WhW6vX4MXkyEtVvRcIVU35iDV4LPCSmM"
-            },
-            {
-                name: "DS-MIDTERM-2025",
-                view: "https://drive.google.com/file/d/1zfRXdPTKxqsl623kVLKfowLWVJj_JNVd/preview",
-                download: "https://drive.google.com/uc?export=download&id=1zfRXdPTKxqsl623kVLKfowLWVJj_JNVd"
-            },
-            {
-                name: "DS-MIDTERM-2022",
-                view: "https://drive.google.com/file/d/1q0LKPfisKHHBXduTDgPGhuK07KeYrr5k/preview",
-                download: "https://drive.google.com/uc?export=download&id=1q0LKPfisKHHBXduTDgPGhuK07KeYrr5k"
-            },
-            {
-                name: "DS-ENDTERM-2022",
-                view: "https://drive.google.com/file/d/1jVo3xoHBI9P-XtFkxnH9BS78okVJxkSD/preview",
-                download: "https://drive.google.com/uc?export=download&id=1jVo3xoHBI9P-XtFkxnH9BS78okVJxkSD"
-            },
-
-
         ],
+
         books: [],
+
         syllabus: [
             {
-                name: "DS-Syllabus",
-                view: "https://drive.google.com/file/d/18QES5xoswxyizbxdxLZ0RVUUtJ-qEqyZ/preview",
-                download: "https://drive.google.com/uc?export=download&id=18QES5xoswxyizbxdxLZ0RVUUtJ-qEqyZ"
-            }
+                name: "LECTURE_PLAN",
+                view: "https://drive.google.com/file/d/1iYW5Djirv7v_dJq2SwNZ8tNVXe-7tmxc/preview",
+                download: "https://drive.google.com/uc?export=download&id=1iYW5Djirv7v_dJq2SwNZ8tNVXe-7tmxc"
+            },
+            {
+                name: "SYLLABUS",
+                view: "https://drive.google.com/file/d/1kWIUFFl-_Hgcqh1zc9h0lgnPOMr45oz_/preview",
+                download: "https://drive.google.com/uc?export=download&id=1kWIUFFl-_Hgcqh1zc9h0lgnPOMr45oz_"
+            },
         ]
     },
 
-    "discrete-mathematics": {
-        notes: [],
-        pyq: [
-
+    "data-science": {
+        notes: [
             {
-                name: "DM-ENDTERM-2025",
-                view: "https://drive.google.com/file/d/1w0mIS8Y0pmW-XZtC6jBgtEvQF_lG0Zd_/preview",
-                download: "https://drive.google.com/uc?export=download&id=1w0mIS8Y0pmW-XZtC6jBgtEvQF_lG0Zd_"
+                name: "NOTES TILL MINI",
+                view: "https://drive.google.com/file/d/1qVHEA2SdLtNWM79EwsYLRhersmt19Bw3/preview",
+                download: "https://drive.google.com/uc?export=download&id=1qVHEA2SdLtNWM79EwsYLRhersmt19Bw3"
             },
-            {
-                name: "DM-ENDTERM-2024",
-                view: "https://drive.google.com/file/d/17HzomNLdM6E3KSRMIeS6zKoJSQExqxrQ/preview",
-                download: "https://drive.google.com/uc?export=download&id=17HzomNLdM6E3KSRMIeS6zKoJSQExqxrQ"
-            },
-            {
-                name: "DM-MIDTERM-2024",
-                view: "https://drive.google.com/file/d/1iwA0e7r8YOTw2Uv7pycofVZQK9-I74sl/preview",
-                download: "https://drive.google.com/uc?export=download&id=1iwA0e7r8YOTw2Uv7pycofVZQK9-I74sl"
-            },
-            {
-                name: "DM-MIDTERM-2025",
-                view: "https://drive.google.com/file/d/10GZQKaIcuiujQx3gBoSgO0W5jAKVv7J1/preview",
-                download: "https://drive.google.com/uc?export=download&id=10GZQKaIcuiujQx3gBoSgO0W5jAKVv7J1"
-            },
-            {
-                name: "DM-MINITEST-2024",
-                view: "https://drive.google.com/file/d/1meEW0JydOotsr6s1fWgO67BPpmPvqpMs/preview",
-                download: "https://drive.google.com/uc?export=download&id=1meEW0JydOotsr6s1fWgO67BPpmPvqpMs"
-            },
-            {
-                name: "DM-MINITEST",
-                view: "https://drive.google.com/file/d/1R3E7u0D5DWZpBdKXSTxPcKho88SxhDs8/preview",
-                download: "https://drive.google.com/uc?export=download&id=1R3E7u0D5DWZpBdKXSTxPcKho88SxhDs8"
-            },
-            {
-                name: "DM-MIDTERM-2022",
-                view: "https://drive.google.com/file/d/1ywpELfM8mi1pDBVSXnfriZgWjvqCmldA/preview",
-                download: "https://drive.google.com/uc?export=download&id=1ywpELfM8mi1pDBVSXnfriZgWjvqCmldA"
-            },
-            {
-                name: "DM-ENDTERM-2022",
-                view: "https://drive.google.com/file/d/1P402QkTRhWb8KhKvZqTsnLxlRVK8Wj6a/preview",
-                download: "https://drive.google.com/uc?export=download&id=1P402QkTRhWb8KhKvZqTsnLxlRVK8Wj6a"
-            },
-
-
-
-
-
-
         ],
+
+        pyq: [
+            {
+                name: "MIDTERM_2024",
+                view: "https://drive.google.com/file/d/1BY2OIyY4PBa8QHOFQKpVUrZCI9cOO3do/preview",
+                download: "https://drive.google.com/uc?export=download&id=1BY2OIyY4PBa8QHOFQKpVUrZCI9cOO3do"
+            },
+            {
+                name: "ENDTERM_2024",
+                view: "https://drive.google.com/file/d/1Q2fiVlYn0Oq7kl8M1Ot9eebegUoEzlr9/preview",
+                download: "https://drive.google.com/uc?export=download&id=1Q2fiVlYn0Oq7kl8M1Ot9eebegUoEzlr9"
+            },
+        ],
+
         books: [],
+
         syllabus: [
             {
-                name: "DM-Syllabus",
-                view: "https://drive.google.com/file/d/1U26zHRzd3Hp2PlU_rj02pS5xAig3F6mB/preview",
-                download: "https://drive.google.com/uc?export=download&id=1U26zHRzd3Hp2PlU_rj02pS5xAig3F6mB"
-            }
+                name: "LECTURE_PLAN",
+                view: "https://drive.google.com/file/d/11LjLO1Ejgu2xXLj8iXSGI-iEYSgVBSyg/preview",
+                download: "https://drive.google.com/uc?export=download&id=11LjLO1Ejgu2xXLj8iXSGI-iEYSgVBSyg"
+            },
+            {
+                name: "SYLLABUS",
+                view: "https://drive.google.com/file/d/1q1fWmSdMysnnDD_pCEAM1aXUviwR6uXb/preview",
+                download: "https://drive.google.com/uc?export=download&id=1q1fWmSdMysnnDD_pCEAM1aXUviwR6uXb"
+            },
         ]
     },
 
-    "database-management-system": {
+    "data-warehousing-&-mining": {
         notes: [],
-        pyq: [
-
-            {
-                name: "DBMS-ENDTERM-2024",
-                view: "https://drive.google.com/file/d/1fLm1k-U6P3Xypll4BJZpSHoJC99YDZ5L/preview",
-                download: "https://drive.google.com/uc?export=download&id=1fLm1k-U6P3Xypll4BJZpSHoJC99YDZ5L"
-            },
-            {
-                name: "DBMS-ENDTERM-2025",
-                view: "https://drive.google.com/file/d/1aBdoIJ_VDZaj1BewqZs_783sh-9fmSU3/preview",
-                download: "https://drive.google.com/uc?export=download&id=1aBdoIJ_VDZaj1BewqZs_783sh-9fmSU3"
-            },
-            {
-                name: "DBMS-ENDTERMLAB-2025",
-                view: "https://drive.google.com/file/d/1eHRNelFC8hfdM_xkGBA4DEUP6Ae_XSHd/preview",
-                download: "https://drive.google.com/uc?export=download&id=1eHRNelFC8hfdM_xkGBA4DEUP6Ae_XSHd"
-            },
-            {
-                name: "DBMS-MIDTERM-2024",
-                view: "https://drive.google.com/file/d/1xT0ZU-wIBED1Nke1vGaLFwViaIdBfbsS/preview",
-                download: "https://drive.google.com/uc?export=download&id=1xT0ZU-wIBED1Nke1vGaLFwViaIdBfbsS"
-            },
-
-            {
-                name: "DBMS-MINITEST-2022",
-                view: "https://drive.google.com/file/d/19FwCiEpEbmdo5cYZ1ONxeaghsM76zxph/preview",
-                download: "https://drive.google.com/uc?export=download&id=19FwCiEpEbmdo5cYZ1ONxeaghsM76zxph"
-            },
-            {
-                name: "DBMS-MIDTERM-2022",
-                view: "https://drive.google.com/file/d/1oVgO6r_VZuDR-4amTZD6UzsV0_wjdkgH/preview",
-                download: "https://drive.google.com/uc?export=download&id=1oVgO6r_VZuDR-4amTZD6UzsV0_wjdkgH"
-            },
-            {
-                name: "DBMS-ENDTERM-2022",
-                view: "https://drive.google.com/file/d/15o5nIhgK3KpD_K37F6N5QYKhbMn2hWEB/preview",
-                download: "https://drive.google.com/uc?export=download&id=15o5nIhgK3KpD_K37F6N5QYKhbMn2hWEB"
-            },
-
-
-
-        ],
+        pyq: [],
         books: [],
-        syllabus: [
-            {
-                name: "DBMS-Syllabus",
-                view: "https://drive.google.com/file/d/10kIjlM8XcbIJ24S2c7t0-5jhp01Hlp4y/preview",
-                download: "https://drive.google.com/uc?export=download&id=10kIjlM8XcbIJ24S2c7t0-5jhp01Hlp4y"
-            }
-        ]
+        syllabus: []
     },
 
-    "digital-circuit-design": {
-        notes: [],
+    "computer-networks": {
+        notes: [
+            {
+                name: "NOTES TILL MINI",
+                view: "https://drive.google.com/file/d/1QypI3Lg4RcIjKWhcionqkjH9xC_RNYCF/preview",
+                download: "https://drive.google.com/uc?export=download&id=1QypI3Lg4RcIjKWhcionqkjH9xC_RNYCF"
+            },
+        ],
         pyq: [
             {
-                name: "DCD-MIDTERM-2024",
-                view: "https://drive.google.com/file/d/1F4BAz4jUN6v1Xsq1Y_HX6ZxMxx15sb0f/preview",
-                download: "https://drive.google.com/uc?export=download&id=1F4BAz4jUN6v1Xsq1Y_HX6ZxMxx15sb0f"
+                name: "MIDTERM_2024",
+                view: "https://drive.google.com/file/d/1lw42UWhETpYDdLl6fpch-_-qBlvhU_gt/preview",
+                download: "https://drive.google.com/uc?export=download&id=1lw42UWhETpYDdLl6fpch-_-qBlvhU_gt"
             },
             {
-                name: "DCD-ENDTERM-2024",
-                view: "https://drive.google.com/file/d/1cjg-oYeBU2azTA1PeE79Yzw4UwNGxS1E/preview",
-                download: "https://drive.google.com/uc?export=download&id=1cjg-oYeBU2azTA1PeE79Yzw4UwNGxS1E"
+                name: "ENDTERM_2024",
+                view: "https://drive.google.com/file/d/1l7nFcy8AQ86erlLoanqQ4Cxv-hXEi71M/preview",
+                download: "https://drive.google.com/uc?export=download&id=1l7nFcy8AQ86erlLoanqQ4Cxv-hXEi71M"
             },
-            {
-                name: "DCD-ENDTERM-2025",
-                view: "https://drive.google.com/file/d/1vJHS5Mjg3E-UaGRqRN4qfyybvLTlvlKI/preview",
-                download: "https://drive.google.com/uc?export=download&id=1vJHS5Mjg3E-UaGRqRN4qfyybvLTlvlKI"
-            },
-            {
-                name: "DCD-MIDTERM-2022",
-                view: "https://drive.google.com/file/d/15kVsT3rGh4HAbK17R_gUw9_aMswKrwtN/preview",
-                download: "https://drive.google.com/uc?export=download&id=15kVsT3rGh4HAbK17R_gUw9_aMswKrwtN"
-            },
-            {
-                name: "DCD-ENDTERM-2022",
-                view: "https://drive.google.com/file/d/1FeiVNEGbid24ajogvi0VPTqS4yETLlku/preview",
-                download: "https://drive.google.com/uc?export=download&id=1FeiVNEGbid24ajogvi0VPTqS4yETLlku"
-            },
-
-
         ],
         books: [],
-        syllabus: [
-            {
-                name: "DCD-Syllabus",
-                view: "https://drive.google.com/file/d/1oLt-_C3BP7WUZZJQkX_pSzoyvLtZgYRE/preview",
-                download: "https://drive.google.com/uc?export=download&id=1oLt-_C3BP7WUZZJQkX_pSzoyvLtZgYRE"
-            }
-        ]
+        syllabus: []
     },
 
-    "principles-of-programming-language": {
-        notes: [],
+    "statistical-models-for-data-interpretation-and-analysis": {
+        notes: [
+            {
+                name: "NOTES_TILL_MINI",
+                view: "https://drive.google.com/file/d/1PnXOXRMPD-n2Qa0MEJSZwU3Qq7ZzSrx8/preview",
+                download: "https://drive.google.com/uc?export=download&id=1PnXOXRMPD-n2Qa0MEJSZwU3Qq7ZzSrx8"
+            },
+        ],
+
         pyq: [
             {
-                name: "PPL-ENDTERM-2025",
-                view: "https://drive.google.com/file/d/1UxSgqN_HjSdYiYJB6gZq7y2IUtm-Ma6_/preview",
-                download: "https://drive.google.com/uc?export=download&id=1UxSgqN_HjSdYiYJB6gZq7y2IUtm-Ma6_"
+                name: "MINI_TEST_2024",
+                view: "https://drive.google.com/file/d/1PGb-5mKeaM-AqK6nSUd79g-4bP8UzzfF/preview",
+                download: "https://drive.google.com/uc?export=download&id=1PGb-5mKeaM-AqK6nSUd79g-4bP8UzzfF"
             },
             {
-                name: "PPL-MIDTERMLAB-2025",
-                view: "https://drive.google.com/file/d/1SJBqvST7DXCIpX-i19aLjQMx6MYkVgJ4/preview",
-                download: "https://drive.google.com/uc?export=download&id=1SJBqvST7DXCIpX-i19aLjQMx6MYkVgJ4"
+                name: "MIDTERM_2024",
+                view: "https://drive.google.com/file/d/1MBP8HDhZD0gH5NlSuGnGFFS9HcVFxx5E/preview",
+                download: "https://drive.google.com/uc?export=download&id=1MBP8HDhZD0gH5NlSuGnGFFS9HcVFxx5E"
             },
             {
-                name: "PPL-MIDTERM-2024",
-                view: "https://drive.google.com/file/d/1T2-E_A8CDUNlarTq_IqgrhJ_ZNlCv3Dt/preview",
-                download: "https://drive.google.com/uc?export=download&id=1T2-E_A8CDUNlarTq_IqgrhJ_ZNlCv3Dt"
+                name: "ENDTERM_2024",
+                view: "https://drive.google.com/file/d/1XhbQkt8qq0Iv0OjR9MjTd-s5awdE4ygI/preview",
+                download: "https://drive.google.com/uc?export=download&id=1XhbQkt8qq0Iv0OjR9MjTd-s5awdE4ygI"
             },
-            {
-                name: "PPL-MIDTERM-2025",
-                view: "https://drive.google.com/file/d/11TApYxPDX4RWl_77G_iMChknJJhpEH4E/preview",
-                download: "https://drive.google.com/uc?export=download&id=11TApYxPDX4RWl_77G_iMChknJJhpEH4E"
-            },
-            {
-                name: "PPL-MIDTERM-2022",
-                view: "https://drive.google.com/file/d/1GkB1jymWj1yakH4BOMqMdnyau2kjgqcb/preview",
-                download: "https://drive.google.com/uc?export=download&id=1GkB1jymWj1yakH4BOMqMdnyau2kjgqcb"
-            },
-            {
-                name: "PPL-ENDTERM-2022",
-                view: "https://drive.google.com/file/d/16JVdfqJhamT0ar8s1f9E-6CT5GHGjI0j/preview",
-                download: "https://drive.google.com/uc?export=download&id=16JVdfqJhamT0ar8s1f9E-6CT5GHGjI0j"
-            },
-
-
-
         ],
-        books: [],
-        syllabus: [
+
+        books: [
             {
-                name: "PPL-SyllabuS",
-                view: "https://drive.google.com/file/d/1aFwbROpsfNYITj0nUE-iq-9TvOvrcI9q/preview",
-                download: "https://drive.google.com/uc?export=download&id=1aFwbROpsfNYITj0nUE-iq-9TvOvrcI9q"
-            }
-        ]
+                name: "head_first_statistics",
+                view: "https://drive.google.com/file/d/193DLOTyaYWHm9vq5eB5fBPFzURRQaycr/preview",
+                download: "https://drive.google.com/uc?export=download&id=193DLOTyaYWHm9vq5eB5fBPFzURRQaycr"
+            },
+            {
+                name: "Neil A Weiss - Introductory Statistics-Pearson (2017)",
+                view: "https://drive.google.com/file/d/1z93piMaOqyBHiQWtcN_My4bchv9NjBWN/preview",
+                download: "https://drive.google.com/uc?export=download&id=1z93piMaOqyBHiQWtcN_My4bchv9NjBWN"
+            },
+        ],
+        
+        syllabus: []
     },
 
-    "fundamental-of-design-methods": {
+    "artificial-intelligence": {
         notes: [],
+
         pyq: [
             {
-                name: "FOD-ENDTERM-2024",
-                view: "https://drive.google.com/file/d/17arz7aNqcEnCPUixscNv9ggu3nV63YIn/preview",
-                download: "https://drive.google.com/uc?export=download&id=17arz7aNqcEnCPUixscNv9ggu3nV63YIn"
+                name: "MIDTERM_2023",
+                view: "https://drive.google.com/file/d/1xiUlwM4sfgioug7ISpBJazm4JdxKaGMI/preview",
+                download: "https://drive.google.com/uc?export=download&id=1xiUlwM4sfgioug7ISpBJazm4JdxKaGMI"
             },
             {
-                name: "FOD-MIDTERM-2024",
-                view: "https://drive.google.com/file/d/1_k15Y8PotI6vQR66RBQwoz9Bhejkr0B5/preview",
-                download: "https://drive.google.com/uc?export=download&id=1_k15Y8PotI6vQR66RBQwoz9Bhejkr0B5"
+                name: "MIDTERM_2024",
+                view: "https://drive.google.com/file/d/1rpLp2mcVJNxd8_5mWa_s58zeB6kJTbNF/preview",
+                download: "https://drive.google.com/uc?export=download&id=1rpLp2mcVJNxd8_5mWa_s58zeB6kJTbNF"
             },
             {
-                name: "FOD-ENDTERM-2025",
-                view: "https://drive.google.com/file/d/1BXiJb7NuWHfOnD6QT7_fLn4xNbqXj-1W/preview",
-                download: "https://drive.google.com/uc?export=download&id=1BXiJb7NuWHfOnD6QT7_fLn4xNbqXj-1W"
+                name: "ENDTERM_2024",
+                view: "https://drive.google.com/file/d/1lZBGv-S8g9NmpgQH_tc_-RqGmZOMWiKr/preview",
+                download: "https://drive.google.com/uc?export=download&id=1lZBGv-S8g9NmpgQH_tc_-RqGmZOMWiKr"
             },
-            {
-                name: "FOD-MIDTERM-2022",
-                view: "https://drive.google.com/file/d/1M0ZYVo-7jN6roKYFelk3bv1dzP-CRrTr/preview",
-                download: "https://drive.google.com/uc?export=download&id=1M0ZYVo-7jN6roKYFelk3bv1dzP-CRrTr"
-            },
-            {
-                name: "FOD-ENDTERM-2022",
-                view: "https://drive.google.com/file/d/1625zhWm0u5FgVtVVvrZRMPB2GqVLJdHm/preview",
-                download: "https://drive.google.com/uc?export=download&id=1625zhWm0u5FgVtVVvrZRMPB2GqVLJdHm"
-            },
-
-
         ],
+
         books: [],
+
         syllabus: [
             {
-                name: "FOD-Syllabus",
-                view: "https://drive.google.com/file/d/1hII2WxWAamAeYuW16iH_hXLQ6GqUvTKN/preview",
-                download: "https://drive.google.com/uc?export=download&id=1hII2WxWAamAeYuW16iH_hXLQ6GqUvTKN"
-            }
+                name: "lecture_plan",
+                view: "https://drive.google.com/file/d/1pBaHfkpxn4zhKFlhUk-18S9xZ18z_wlf/preview",
+                download: "https://drive.google.com/uc?export=download&id=1pBaHfkpxn4zhKFlhUk-18S9xZ18z_wlf"
+            },
         ]
     },
-
 };
 
 /* ================== STATE ================== */
