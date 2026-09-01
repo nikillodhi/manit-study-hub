@@ -989,9 +989,24 @@ const resources = {
 
     "data-warehousing-&-mining": {
         notes: [],
+
         pyq: [],
-        books: [],
-        syllabus: []
+
+        books: [
+            {
+                name: "The Elements of Statistical Learning Data Mining, Inference, and Prediction.pdf",
+                view: "https://drive.google.com/file/d/1TwtSZWRGIIKrf8ECNG2TkTztt-uGcngZ/preview",
+                download: "https://drive.google.com/uc?export=download&id=1TwtSZWRGIIKrf8ECNG2TkTztt-uGcngZ"
+            },
+        ],
+
+        syllabus: [
+            {
+                name: "syllabus",
+                view: "https://drive.google.com/file/d/1yhPTw8t-XaRclGagpH-zDNwX8d23pJIy/preview",
+                download: "https://drive.google.com/uc?export=download&id=1yhPTw8t-XaRclGagpH-zDNwX8d23pJIy"
+            },
+        ]
     },
 
     "computer-networks": {
@@ -1015,7 +1030,13 @@ const resources = {
             },
         ],
         books: [],
-        syllabus: []
+        syllabus: [
+            {
+                name: "syllabus",
+                view: "https://drive.google.com/file/d/1EY9jrVa3N9yDO8znea7v_oxhj_ZPxIC3/preview",
+                download: "https://drive.google.com/uc?export=download&id=1EY9jrVa3N9yDO8znea7v_oxhj_ZPxIC3"
+            },
+        ]
     },
 
     "statistical-models-for-data-interpretation-and-analysis": {
@@ -1057,8 +1078,14 @@ const resources = {
                 download: "https://drive.google.com/uc?export=download&id=1z93piMaOqyBHiQWtcN_My4bchv9NjBWN"
             },
         ],
-        
-        syllabus: []
+
+        syllabus: [
+            {
+                name: "syllabus",
+                view: "https://drive.google.com/file/d/1cLjGBIF0FvA87pmNywFbaQQikaYr460n/preview",
+                download: "https://drive.google.com/uc?export=download&id=1cLjGBIF0FvA87pmNywFbaQQikaYr460n"
+            },
+        ]
     },
 
     "artificial-intelligence": {
@@ -1089,6 +1116,11 @@ const resources = {
                 name: "lecture_plan",
                 view: "https://drive.google.com/file/d/1pBaHfkpxn4zhKFlhUk-18S9xZ18z_wlf/preview",
                 download: "https://drive.google.com/uc?export=download&id=1pBaHfkpxn4zhKFlhUk-18S9xZ18z_wlf"
+            },
+            {
+                name: "syllabus",
+                view: "https://drive.google.com/file/d/18agyKsUlpU8Vzw5zJ-Yi_ARs5b1prFjO/preview",
+                download: "https://drive.google.com/uc?export=download&id=18agyKsUlpU8Vzw5zJ-Yi_ARs5b1prFjO"
             },
         ]
     },
