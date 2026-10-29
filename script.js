@@ -914,9 +914,9 @@ const resources = {
     "operating-systems": {
         notes: [
             {
-                name: "NOTES TILL_MINI",
-                view: "https://drive.google.com/file/d/1FEKvz3VFMwMlVAFuzcxCFVW_Ae8LDGCt/preview",
-                download: "https://drive.google.com/uc?export=download&id=1FEKvz3VFMwMlVAFuzcxCFVW_Ae8LDGCt"
+                name: "OS_Till_Mid",
+                view: "https://drive.google.com/file/d/1MTpjG3ZPTSrObQLUutTn08RVNnKGptCM/preview",
+                download: "https://drive.google.com/uc?export=download&id=1MTpjG3ZPTSrObQLUutTn08RVNnKGptCM"
             },
         ],
 
@@ -930,6 +930,21 @@ const resources = {
                 name: "ENDTERM_2024",
                 view: "https://drive.google.com/file/d/1LzhMoCDSPH3zYsn39qsmeATvDlPALrPg/preview",
                 download: "https://drive.google.com/uc?export=download&id=1LzhMoCDSPH3zYsn39qsmeATvDlPALrPg"
+            },
+            {
+                name: "OS_Midterm_2023",
+                view: "https://drive.google.com/file/d/1g_iaVmC94vvxcdmVfDm-nVaKd6KZHbEF/preview",
+                download: "https://drive.google.com/uc?export=download&id=1g_iaVmC94vvxcdmVfDm-nVaKd6KZHbEF"
+            },
+            {
+                name: "OS_Endterm_2023",
+                view: "https://drive.google.com/file/d/139RLDL4D52gzMFaKkDezG-mRkzd_85BQ/preview",
+                download: "https://drive.google.com/uc?export=download&id=139RLDL4D52gzMFaKkDezG-mRkzd_85BQ"
+            },
+            {
+                name: "OS-MID-2026",
+                view: "https://drive.google.com/file/d/1jIpo_Gpsf_zvoWckuZN4sZVH8KpUgkI3/preview",
+                download: "https://drive.google.com/uc?export=download&id=1jIpo_Gpsf_zvoWckuZN4sZVH8KpUgkI3"
             },
         ],
 
@@ -952,9 +967,9 @@ const resources = {
     "data-science": {
         notes: [
             {
-                name: "NOTES TILL MINI",
-                view: "https://drive.google.com/file/d/1qVHEA2SdLtNWM79EwsYLRhersmt19Bw3/preview",
-                download: "https://drive.google.com/uc?export=download&id=1qVHEA2SdLtNWM79EwsYLRhersmt19Bw3"
+                name: "DS_Till_Mid",
+                view: "https://drive.google.com/file/d/1ER9nTnmNIwVCMvKyPxISI1AC08s_LQhv/preview",
+                download: "https://drive.google.com/uc?export=download&id=1ER9nTnmNIwVCMvKyPxISI1AC08s_LQhv"
             },
         ],
 
@@ -968,6 +983,16 @@ const resources = {
                 name: "ENDTERM_2024",
                 view: "https://drive.google.com/file/d/1Q2fiVlYn0Oq7kl8M1Ot9eebegUoEzlr9/preview",
                 download: "https://drive.google.com/uc?export=download&id=1Q2fiVlYn0Oq7kl8M1Ot9eebegUoEzlr9"
+            },
+            {
+                name: "DS-MID-2026",
+                view: "https://drive.google.com/file/d/1nopBGUIs5afOWrxrxZNUPL1HfN3AdT7n/preview",
+                download: "https://drive.google.com/uc?export=download&id=1nopBGUIs5afOWrxrxZNUPL1HfN3AdT7n"
+            },
+            {
+                name: "DS_Endterm_2023",
+                view: "https://drive.google.com/file/d/1Teu6fkPpkxvrykhjDbrO9SCJxR3NRg8e/preview",
+                download: "https://drive.google.com/uc?export=download&id=1Teu6fkPpkxvrykhjDbrO9SCJxR3NRg8e"
             },
         ],
 
@@ -988,9 +1013,31 @@ const resources = {
     },
 
     "data-warehousing-&-mining": {
-        notes: [],
+        notes: [
+            {
+                name: "DM Till Mid",
+                view: "https://drive.google.com/file/d/1AumYrfmsYgLVkIsSe3pQMl4FnkZswGJp/preview",
+                download: "https://drive.google.com/uc?export=download&id=1AumYrfmsYgLVkIsSe3pQMl4FnkZswGJp"
+            },
+        ],
 
-        pyq: [],
+        pyq: [
+            {
+                name: "DM_Endterm_2023",
+                view: "https://drive.google.com/file/d/1-p_FdJp8NIlG3Q0HrhKnC7a41z-S20ZG/preview",
+                download: "https://drive.google.com/uc?export=download&id=1-p_FdJp8NIlG3Q0HrhKnC7a41z-S20ZG"
+            },
+            {
+                name: "DM_Midterm_2023",
+                view: "https://drive.google.com/file/d/1zOV1VYv5js75zF9Ij20BHwespHaby9Kx/preview",
+                download: "https://drive.google.com/uc?export=download&id=1zOV1VYv5js75zF9Ij20BHwespHaby9Kx"
+            },
+            {
+                name: "DM-Midterm-2026",
+                view: "https://drive.google.com/file/d/1doTzfCE4cz_GsOjpWemT-x6I0StcSpRn/preview",
+                download: "https://drive.google.com/uc?export=download&id=1doTzfCE4cz_GsOjpWemT-x6I0StcSpRn"
+            },
+        ],
 
         books: [
             {
@@ -1012,9 +1059,9 @@ const resources = {
     "computer-networks": {
         notes: [
             {
-                name: "NOTES TILL MINI",
-                view: "https://drive.google.com/file/d/1QypI3Lg4RcIjKWhcionqkjH9xC_RNYCF/preview",
-                download: "https://drive.google.com/uc?export=download&id=1QypI3Lg4RcIjKWhcionqkjH9xC_RNYCF"
+                name: "CN_till Mid",
+                view: "https://drive.google.com/file/d/1ziVbifXUNA3qDrvCm-7aox1wGAp1Lez9/preview",
+                download: "https://drive.google.com/uc?export=download&id=1ziVbifXUNA3qDrvCm-7aox1wGAp1Lez9"
             },
         ],
         pyq: [
@@ -1027,6 +1074,21 @@ const resources = {
                 name: "ENDTERM_2024",
                 view: "https://drive.google.com/file/d/1l7nFcy8AQ86erlLoanqQ4Cxv-hXEi71M/preview",
                 download: "https://drive.google.com/uc?export=download&id=1l7nFcy8AQ86erlLoanqQ4Cxv-hXEi71M"
+            },
+            {
+                name: "CN-MID-2026",
+                view: "https://drive.google.com/file/d/1XGdTkc_IXyYwaZmhesNyaWLPMPhcjNSl/preview",
+                download: "https://drive.google.com/uc?export=download&id=1XGdTkc_IXyYwaZmhesNyaWLPMPhcjNSl"
+            },
+            {
+                name: "CN_Midterm_2023",
+                view: "https://drive.google.com/file/d/1yYwghHGQQFjknKBBz09HdJFyMcFSstZf/preview",
+                download: "https://drive.google.com/uc?export=download&id=1yYwghHGQQFjknKBBz09HdJFyMcFSstZf"
+            },
+            {
+                name: "CN_Endterm_2023",
+                view: "https://drive.google.com/file/d/1OlkfCQ_D605j9DjDtJ1vk8gvSLmHvItY/preview",
+                download: "https://drive.google.com/uc?export=download&id=1OlkfCQ_D605j9DjDtJ1vk8gvSLmHvItY"
             },
         ],
         books: [],
@@ -1042,9 +1104,9 @@ const resources = {
     "statistical-models-for-data-interpretation-and-analysis": {
         notes: [
             {
-                name: "NOTES_TILL_MINI",
-                view: "https://drive.google.com/file/d/1PnXOXRMPD-n2Qa0MEJSZwU3Qq7ZzSrx8/preview",
-                download: "https://drive.google.com/uc?export=download&id=1PnXOXRMPD-n2Qa0MEJSZwU3Qq7ZzSrx8"
+                name: "SMD Till Mid",
+                view: "https://drive.google.com/file/d/11iT5WOgNZ2-IL7a9fdsXQFHryN6FGF7B/preview",
+                download: "https://drive.google.com/uc?export=download&id=11iT5WOgNZ2-IL7a9fdsXQFHryN6FGF7B"
             },
         ],
 
@@ -1063,6 +1125,26 @@ const resources = {
                 name: "ENDTERM_2024",
                 view: "https://drive.google.com/file/d/1XhbQkt8qq0Iv0OjR9MjTd-s5awdE4ygI/preview",
                 download: "https://drive.google.com/uc?export=download&id=1XhbQkt8qq0Iv0OjR9MjTd-s5awdE4ygI"
+            },
+            {
+                name: "SMD_MID_2026",
+                view: "https://drive.google.com/file/d/1ZdGOOoCMBuX1aDRSzHei7s2_WLFn7Yd8/preview",
+                download: "https://drive.google.com/uc?export=download&id=1ZdGOOoCMBuX1aDRSzHei7s2_WLFn7Yd8"
+            },
+            {
+                name: "SMD_MINI_2025 WITH_SOLUTION",
+                view: "https://drive.google.com/file/d/1ffdbRyYJwTbRnNzrtjVVwMdYYgFa_YPQ/preview",
+                download: "https://drive.google.com/uc?export=download&id=1ffdbRyYJwTbRnNzrtjVVwMdYYgFa_YPQ"
+            },
+            {
+                name: "SMD_MID_2025 WITH SOLUTION",
+                view: "https://drive.google.com/file/d/1nZi66qeZoaTgcXh4kUKszsxEM3A8qEf_/preview",
+                download: "https://drive.google.com/uc?export=download&id=1nZi66qeZoaTgcXh4kUKszsxEM3A8qEf_"
+            },
+            {
+                name: "SMD_END_2025 WITH SOLUTION",
+                view: "https://drive.google.com/file/d/1ZFmgxgYz3L0iStgRVP_ZahJsK3zqGmYy/preview",
+                download: "https://drive.google.com/uc?export=download&id=1ZFmgxgYz3L0iStgRVP_ZahJsK3zqGmYy"
             },
         ],
 
@@ -1089,7 +1171,13 @@ const resources = {
     },
 
     "artificial-intelligence": {
-        notes: [],
+        notes: [
+            {
+                name: "AI_TILL MID",
+                view: "https://drive.google.com/file/d/17VlqEuKibjCv9UlsileV9irT-D7RvLAN/preview",
+                download: "https://drive.google.com/uc?export=download&id=17VlqEuKibjCv9UlsileV9irT-D7RvLAN"
+            },
+        ],
 
         pyq: [
             {
@@ -1106,6 +1194,16 @@ const resources = {
                 name: "ENDTERM_2024",
                 view: "https://drive.google.com/file/d/1lZBGv-S8g9NmpgQH_tc_-RqGmZOMWiKr/preview",
                 download: "https://drive.google.com/uc?export=download&id=1lZBGv-S8g9NmpgQH_tc_-RqGmZOMWiKr"
+            },
+            {
+                name: "AI_Endterm_2023",
+                view: "https://drive.google.com/file/d/1lmbmFlMB4GViwo4iA3f_2zEHMJ5hCsxM/preview",
+                download: "https://drive.google.com/uc?export=download&id=1lmbmFlMB4GViwo4iA3f_2zEHMJ5hCsxM"
+            },
+            {
+                name: "AI-MID-2026",
+                view: "https://drive.google.com/file/d/1UXl9WRZ-I48O7uVfkv8vYRIjJ0NehzmQ/preview",
+                download: "https://drive.google.com/uc?export=download&id=1UXl9WRZ-I48O7uVfkv8vYRIjJ0NehzmQ"
             },
         ],
 
